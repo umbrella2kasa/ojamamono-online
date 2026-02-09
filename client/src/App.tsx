@@ -147,6 +147,7 @@ function App() {
     const [activeEmotes, setActiveEmotes] = useState<{ [key: string]: string }>({});
     const [showRole, setShowRole] = useState(false);
     const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
+    const [connectError, setConnectError] = useState<string | null>(null);
 
     const [allStats, setAllStats] = useState<any[]>([]);
     const [showLeaderboard, setShowLeaderboard] = useState(false);
@@ -466,6 +467,14 @@ function App() {
         (socket as any).on('statsReceived', onStatsReceived);
         (socket as any).on('allStatsReceived', onAllStatsReceived);
 
+        socket.on('connect_error', (err) => {
+            console.error('Connection Error:', err);
+            setConnectError(err.message);
+        });
+        socket.on('connect', () => {
+            setConnectError(null);
+        });
+
         return () => {
             (socket as any).off('rejoinSuccess', onRejoinSuccess);
             socket.off('roomUpdated', onRoomUpdated);
@@ -674,6 +683,7 @@ function App() {
                             </h2>
                             <div className="text-[8px] text-gray-300 text-center mb-5 font-mono opacity-50">
                                 Connection: {SERVER_URL}
+                                {connectError && <div className="text-red-400 mt-1">Error: {connectError}</div>}
                             </div>
 
                             <div className="mb-6 relative z-10">
