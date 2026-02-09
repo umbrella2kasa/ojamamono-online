@@ -73,7 +73,8 @@ function App() {
                     <p className="text-slate-400 text-xs mb-6">合言葉を知っている人だけが遊べます</p>
 
                     <input
-                        type="password"
+                        type="text"
+                        style={{ WebkitTextSecurity: 'disc' } as any} // 伏せ字にしつつ日本語入力を許可
                         className={`w-full bg-slate-900 border ${authError ? 'border-red-500 animate-shake' : 'border-slate-600'} rounded-lg p-3 text-white text-center text-lg mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500`}
                         placeholder="あいことばをいれてね"
                         value={authInput}
@@ -682,14 +683,14 @@ function App() {
                                     placeholder="なまえをいれてね（全角ひらがなのみ）"
                                     onChange={e => {
                                         const val = e.target.value;
-                                        // 全角ひらがな以外を許可しない（または警告を出す）
-                                        // ここでは入力をフィルタリングする
-                                        const filtered = val.replace(/[^\u3041-\u3096\u309B\u309C\u309D\u309E\u30FC]/g, '');
-                                        if (val !== filtered) {
-                                            setErrorMsg('なまえは「ひらがな」だけでにゅうりょくしてね！');
+                                        setPlayerName(val);
+
+                                        // 警告だけ出す（入力自体は妨げない）
+                                        const hasNonHiragana = /[^\u3041-\u3096\u309B\u309C\u309D\u309E\u30FC\s]/.test(val);
+                                        if (hasNonHiragana && val.length > 0) {
+                                            setErrorMsg('なまえは「ひらがな」がおすすめだよ！');
                                             setTimeout(() => setErrorMsg(''), 3000);
                                         }
-                                        setPlayerName(filtered);
                                     }}
                                     onBlur={() => {
                                         if (playerName.trim()) {
