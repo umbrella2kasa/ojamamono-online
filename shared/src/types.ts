@@ -21,7 +21,6 @@ export type ActionType =
     | 'FIX_CART'      // トロッコ修復
     | 'FIX_PICKAXE_LANTERN' // つるはしorランプ修復
     | 'FIX_PICKAXE_CART'    // つるはしorトロッコ修復
-    | 'FIX_PICKAXE_CART'    // つるはしorトロッコ修復
     | 'FIX_LANTERN_CART'    // ランプorトロッコ修復
     | 'FIX_ALL'             // 全修復 (つるはし/ランプ/トロッコ全て)
     | 'MAP'           // マップ

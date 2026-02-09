@@ -411,7 +411,7 @@ io.on('connection', (socket) => {
     });
 
     // 石炭報酬（ボーナスアクション）
-    socket.on('stoneAction', (targetId: string, actionType: 'FIX' | 'BREAK', toolType: 'PICKAXE' | 'LANTERN' | 'CART') => {
+    (socket as any).on('stoneAction', (targetId: string, actionType: 'FIX' | 'BREAK', toolType: 'PICKAXE' | 'LANTERN' | 'CART') => {
         const userId = socketToUserId.get(socket.id);
         if (!userId) return;
 
@@ -424,7 +424,7 @@ io.on('connection', (socket) => {
         }
     });
 
-    socket.on('skipStoneAction', () => {
+    (socket as any).on('skipStoneAction', () => {
         const userId = socketToUserId.get(socket.id);
         if (!userId) return;
 
