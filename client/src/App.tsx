@@ -18,8 +18,21 @@ import { PIXEL_AVATARS } from './components/avatar/PixelAvatarAssets';
 import { AvatarToken } from './components/common/AvatarToken';
 import { LeaderboardModal } from './components/LeaderboardModal';
 import { getBadgeInfo } from './utils/BadgeUtils';
-// Use environment variable for server URL in production, or fallback to relative hostname on port 3001 for local dev
-const SERVER_URL = (import.meta as any).env.VITE_SERVER_URL || `http://${window.location.hostname}:3001`;
+// Use environment variable for server URL in production.
+// If missing on Render, automatically guess the -server URL from the current -game hostname.
+const getInitialServerUrl = () => {
+    const envUrl = (import.meta as any).env.VITE_SERVER_URL;
+    if (envUrl) return envUrl;
+
+    const host = window.location.hostname;
+    if (host.includes('onrender.com')) {
+        // ojamamono-game.onrender.com -> ojamamono-server.onrender.com
+        return `https://${host.replace('-game', '-server')}`;
+    }
+    return `http://${host}:3001`;
+};
+
+const SERVER_URL = getInitialServerUrl();
 const socket: Socket<ServerToClientEvents, ClientToServerEvents> = io(SERVER_URL);
 
 type Screen = 'LOGIN' | 'LOBBY' | 'GAME' | 'RESULT';
