@@ -11,6 +11,11 @@ import { statsManager } from './game/StatsManager';
 const app = express();
 app.use(cors());
 
+// Health check and server status for browser access
+app.get('/', (req, res) => {
+    res.send('Ojamamono Server is running!');
+});
+
 const httpServer = createServer(app);
 const io = new Server<ClientToServerEvents, ServerToClientEvents>(httpServer, {
     cors: {
