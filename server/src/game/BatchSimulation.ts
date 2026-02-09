@@ -44,11 +44,26 @@ async function runSimulations(iterations: number) {
             enableScore: true,
             botDifficulty: 'HARD',
             roleConfig: {
-                goldDiggers: 3,
-                saboteurs: 1,
-                selfishDwarves: 1,
-                geologists: 1,
-                randomPool: []
+                fixed: {
+                    goldDiggers: 3,
+                    saboteurs: 1,
+                    selfishDwarves: 1,
+                    geologists: 1,
+                },
+                random: {
+                    goldDiggers: 0,
+                    saboteurs: 0,
+                    selfishDwarves: 0,
+                    geologists: 0,
+                }
+            },
+            specialCardConfig: {
+                dynamite: 0,
+                oracle: 0,
+                thief: 0,
+                trader: 0,
+                scavenger: 0,
+                doubleAction: 0
             }
         };
 
