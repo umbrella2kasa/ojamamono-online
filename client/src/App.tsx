@@ -656,9 +656,12 @@ function App() {
 
 
 
-                            <h2 className="text-lg font-bold text-indigo-900 mb-10 text-center tracking-widest uppercase">
+                            <h2 className="text-lg font-bold text-indigo-900 mb-5 text-center tracking-widest uppercase">
                                 ROOM LOGIN
                             </h2>
+                            <div className="text-[8px] text-gray-300 text-center mb-5 font-mono opacity-50">
+                                Connection: {SERVER_URL}
+                            </div>
 
                             <div className="mb-6 relative z-10">
                                 <label className="flex justify-between items-end mb-2 relative">
