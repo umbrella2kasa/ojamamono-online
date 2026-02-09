@@ -1,0 +1,1236 @@
+--- Starting Debug Simulation ---
+Initializing Room...
+[GridManager] Grid initialized: {
+  width: 12,
+  height: 9,
+  totalCells: 108,
+  startCard: {
+    card: { id: 'start', type: 'PATH', shape: [Object], isStart: true },
+    isReversed: false
+  },
+  goalIndices: [ 33, 57, 81 ],
+  nonNullCells: 4
+}
+Starting Game...
+[Room] Assigned roles for 4 players: 4 Gold-Diggers, 1 Saboteurs
+[Room] Deck created with 67 cards (expected: 71)
+[Room] Player Bot 0 dealt 6 cards: PATH(uy19frvqr), ACTION(ink4vdzn), PATH(cht6zo7hq), PATH(u8quqfro9), PATH(j1qlszwzb), ACTION(23rny2uh)
+[Room] Player Bot 1 dealt 6 cards: PATH(yn1z5r0wb), PATH(es16zip0q), PATH(yyn1410so), ACTION(ov0i38v4), PATH(25vfr9jnl), ACTION(n5qsf9fu)
+[Room] Player Bot 2 dealt 6 cards: ACTION(adlnpn84), PATH(9ei10qv13), ACTION(y95vwaa7), ACTION(gpbfxbgo), ACTION(2d5ncf1l), ACTION(hddtkmsi)
+[Room] Player Bot 3 dealt 6 cards: PATH(fin6amtkg), PATH(n8heq9mqs), PATH(t027wji0t), PATH(2rjahzcc6), ACTION(rursngl4), PATH(293xu2yjw)
+[GridManager] Grid initialized: {
+  width: 12,
+  height: 9,
+  totalCells: 108,
+  startCard: {
+    card: { id: 'start', type: 'PATH', shape: [Object], isStart: true },
+    isReversed: false
+  },
+  goalIndices: [ 33, 57, 81 ],
+  nonNullCells: 4
+}
+
+--- Turn 1: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 2: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.7
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 2.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 3: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.4
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 4: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 5: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 2.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 6: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 0.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 7: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.5
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 8: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 2.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 9: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.0
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 10: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.3
+[BotLogic] Card 1 @ (2,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 11: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 12: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.8
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 13: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 14: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 1 @ (2,5) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 15: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 16: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.1
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 17: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.8
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 18: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 2.0
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 19: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.1
+[BotLogic] Card 1 @ (2,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 20: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 2.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.0
+[BotLogic] Card 1 @ (2,5) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 21: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 22: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.7
+[BotLogic] Card 1 @ (2,5) score: 0.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 23: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 24: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 25: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.0
+[BotLogic] Card 1 @ (2,5) score: 1.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 26: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.8
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 27: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 28: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 29: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 30: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 2.0
+[BotLogic] Card 1 @ (2,5) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 31: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 2.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 32: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 1 @ (2,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 33: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 1 @ (2,5) score: 0.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 34: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.3
+[BotLogic] Card 1 @ (2,5) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 35: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 1 @ (2,5) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 36: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.9
+[BotLogic] Card 1 @ (2,5) score: 1.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 37: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.3
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 38: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.0
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 39: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 40: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.9
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 41: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.0
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 42: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 43: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.0
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 44: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 45: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 2.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 1 @ (2,5) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 46: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 47: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 1 @ (2,5) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 48: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 1.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 49: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.0
+[BotLogic] Card 1 @ (2,5) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 50: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 51: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.4
+[BotLogic] Card 1 @ (2,5) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 52: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 53: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 54: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 55: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 56: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 57: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 1 @ (2,5) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 58: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 59: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 2.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.7
+[BotLogic] Card 1 @ (2,5) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 60: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 61: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.4
+[BotLogic] Card 1 @ (2,5) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 62: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 63: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 64: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.8
+[BotLogic] Card 1 @ (2,5) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 65: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 66: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.6
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 67: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.8
+[BotLogic] Card 1 @ (2,5) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 68: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.9
+[BotLogic] Card 1 @ (2,5) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 69: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 70: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 71: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 72: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.3
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 73: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 2.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 74: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 75: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.9
+[BotLogic] Card 1 @ (2,5) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 76: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 77: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 78: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 79: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (2,5) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.3
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 80: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 81: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 82: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 83: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 84: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 85: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.7
+[BotLogic] Card 1 @ (2,5) score: 1.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.2
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 86: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.9
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 87: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.8
+[BotLogic] Card 1 @ (2,5) score: 0.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 88: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 1 @ (2,5) score: 1.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 89: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.3
+[BotLogic] Card 1 @ (2,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 90: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 1 @ (2,5) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 91: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 92: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 0.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 2.0
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 93: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.6
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 94: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.1
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 95: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.5
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.8
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 96: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 1 @ (2,5) score: 1.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 97: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.8
+[BotLogic] Card 1 @ (2,5) score: 1.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.4
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 98: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 0.6
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.9
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 99: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 1 @ (2,5) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.1
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 100: Bot 2 (SABOTEUR) ---
+[BotLogic] Card 0 (ACTION: BREAK_CART) score: 30.0 target: bot-0
+[BotLogic] Card 1 @ (2,3) score: 0.0
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 1 @ (2,5) score: 1.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.5
+[BotLogic] Card 2 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-0
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: FIX_LANTERN_CART) score: 40.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Game Over ---
+Status: PLAYING
+Turns: 100
+Result: Timeout or Stalled

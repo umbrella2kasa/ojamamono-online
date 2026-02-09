@@ -1,0 +1,1057 @@
+--- Starting Debug Simulation ---
+Initializing Room...
+[GridManager] Grid initialized: {
+  width: 12,
+  height: 9,
+  totalCells: 108,
+  startCard: {
+    card: { id: 'start', type: 'PATH', shape: [Object], isStart: true },
+    isReversed: false
+  },
+  goalIndices: [ 33, 57, 81 ],
+  nonNullCells: 4
+}
+Starting Game...
+[Room] Assigned roles for 4 players: 4 Gold-Diggers, 1 Saboteurs
+[Room] Deck created with 67 cards (expected: 71)
+[Room] Player Bot 0 dealt 6 cards: PATH(t2qx6fxov), PATH(kftsfhope), PATH(th970fqlb), PATH(o48fzimu7), ACTION(v4b9drsj), PATH(07simegxw)
+[Room] Player Bot 1 dealt 6 cards: PATH(jjk7k4hrj), PATH(lc4vzj7zb), ACTION(s1xkdcbk), ACTION(8rs2g3x6), PATH(gegiuqluy), ACTION(36qkxlrj)
+[Room] Player Bot 2 dealt 6 cards: PATH(zfjcz1oak), PATH(7nj3p8yki), PATH(exdmtvig6), ACTION(q7qv6c8k), PATH(992gm38uk), ACTION(ssg43xtr)
+[Room] Player Bot 3 dealt 6 cards: PATH(tscqk0dc3), PATH(okosimkig), ACTION(nfe8mlmn), PATH(1jm4z99g4), PATH(dope4iwg1), ACTION(e8wptkhs)
+[GridManager] Grid initialized: {
+  width: 12,
+  height: 9,
+  totalCells: 108,
+  startCard: {
+    card: { id: 'start', type: 'PATH', shape: [Object], isStart: true },
+    isReversed: false
+  },
+  goalIndices: [ 33, 57, 81 ],
+  nonNullCells: 4
+}
+
+--- Turn 1: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (2,3) score: 47.6
+[BotLogic] Card 0 (Rev) @ (2,3) score: 46.6
+[BotLogic] Card 0 @ (1,4) score: 43.1
+[BotLogic] Card 0 (Rev) @ (3,4) score: 49.3
+[BotLogic] Card 0 @ (2,5) score: 46.2
+[BotLogic] Card 0 (Rev) @ (2,5) score: 47.3
+[BotLogic] Card 1 @ (2,3) score: 46.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.7
+[BotLogic] Card 1 @ (1,4) score: 43.9
+[BotLogic] Card 1 (Rev) @ (1,4) score: 43.3
+[BotLogic] Card 1 @ (3,4) score: 49.9
+[BotLogic] Card 1 (Rev) @ (3,4) score: 51.0
+[BotLogic] Card 1 @ (2,5) score: 47.4
+[BotLogic] Card 1 (Rev) @ (2,5) score: 46.1
+Decision: PLAY_CARD @ (3,4)
+
+--- Turn 2: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 1 (Rev) @ (2,3) score: 46.8
+[BotLogic] Card 1 (Rev) @ (3,3) score: 49.8
+[BotLogic] Card 1 @ (1,4) score: 44.5
+[BotLogic] Card 1 (Rev) @ (4,4) score: 52.9
+[BotLogic] Card 1 @ (2,5) score: 46.3
+[BotLogic] Card 1 @ (3,5) score: 50.8
+[BotLogic] Card 2 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 3 @ (2,3) score: 47.9
+[BotLogic] Card 3 @ (3,3) score: 50.5
+[BotLogic] Card 3 @ (1,4) score: 43.0
+[BotLogic] Card 3 (Rev) @ (1,4) score: 43.8
+[BotLogic] Card 3 @ (4,4) score: 52.4
+[BotLogic] Card 3 (Rev) @ (4,4) score: 53.3
+[BotLogic] Card 3 (Rev) @ (2,5) score: 46.6
+[BotLogic] Card 3 (Rev) @ (3,5) score: 50.1
+[BotLogic] Card 4 @ (2,3) score: 46.5
+[BotLogic] Card 4 (Rev) @ (2,3) score: 47.6
+[BotLogic] Card 4 @ (3,3) score: 49.0
+[BotLogic] Card 4 (Rev) @ (3,3) score: 49.6
+[BotLogic] Card 4 @ (1,4) score: 44.1
+[BotLogic] Card 4 (Rev) @ (1,4) score: 43.2
+[BotLogic] Card 4 @ (4,4) score: 52.9
+[BotLogic] Card 4 (Rev) @ (4,4) score: 52.8
+[BotLogic] Card 4 @ (2,5) score: 47.4
+[BotLogic] Card 4 (Rev) @ (2,5) score: 47.4
+[BotLogic] Card 4 @ (3,5) score: 50.3
+[BotLogic] Card 4 (Rev) @ (3,5) score: 49.2
+[BotLogic] Card 5 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+Decision: PLAY_CARD @ (4,4)
+
+--- Turn 3: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 0 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 0 (Rev) @ (3,3) score: 1.9
+[BotLogic] Card 0 (Rev) @ (4,3) score: 1.7
+[BotLogic] Card 0 (Rev) @ (1,4) score: 0.7
+[BotLogic] Card 0 @ (5,4) score: 0.6
+[BotLogic] Card 0 @ (2,5) score: 1.2
+[BotLogic] Card 0 @ (3,5) score: 0.9
+[BotLogic] Card 1 @ (2,3) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (3,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (3,3) score: 0.4
+[BotLogic] Card 1 @ (4,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (4,3) score: 0.5
+[BotLogic] Card 1 @ (1,4) score: 1.3
+[BotLogic] Card 1 (Rev) @ (5,4) score: 1.8
+[BotLogic] Card 1 @ (2,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.7
+[BotLogic] Card 1 @ (3,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (3,5) score: 0.7
+[BotLogic] Card 2 @ (2,3) score: 1.2
+[BotLogic] Card 2 (Rev) @ (2,3) score: 1.0
+[BotLogic] Card 2 @ (3,3) score: 1.4
+[BotLogic] Card 2 (Rev) @ (3,3) score: 0.8
+[BotLogic] Card 2 @ (4,3) score: 0.2
+[BotLogic] Card 2 (Rev) @ (4,3) score: 1.7
+[BotLogic] Card 2 @ (2,5) score: 1.8
+[BotLogic] Card 2 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 2 @ (3,5) score: 1.3
+[BotLogic] Card 2 (Rev) @ (3,5) score: 0.9
+[BotLogic] Card 3 (Rev) @ (2,3) score: 1.3
+[BotLogic] Card 3 (Rev) @ (3,3) score: 0.3
+[BotLogic] Card 3 (Rev) @ (4,3) score: 1.9
+[BotLogic] Card 3 (Rev) @ (1,4) score: 1.4
+[BotLogic] Card 3 @ (5,4) score: 0.5
+[BotLogic] Card 3 @ (2,5) score: 1.8
+[BotLogic] Card 3 @ (3,5) score: 1.4
+[BotLogic] Card 4 (ACTION: BREAK_LANTERN) score: 30.0 target: bot-1
+[BotLogic] Card 5 @ (2,3) score: 1.4
+[BotLogic] Card 5 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 5 @ (3,3) score: 2.0
+[BotLogic] Card 5 (Rev) @ (3,3) score: 1.7
+[BotLogic] Card 5 @ (4,3) score: 1.7
+[BotLogic] Card 5 (Rev) @ (4,3) score: 0.2
+[BotLogic] Card 5 @ (1,4) score: 1.0
+[BotLogic] Card 5 (Rev) @ (5,4) score: 1.8
+[BotLogic] Card 5 @ (2,5) score: 0.8
+[BotLogic] Card 5 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 5 @ (3,5) score: 2.0
+[BotLogic] Card 5 (Rev) @ (3,5) score: 1.5
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 4: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 5: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (2,3) score: 48.0
+[BotLogic] Card 0 (Rev) @ (2,3) score: 46.6
+[BotLogic] Card 0 @ (3,3) score: 49.5
+[BotLogic] Card 0 (Rev) @ (3,3) score: 49.1
+[BotLogic] Card 0 @ (4,3) score: 52.5
+[BotLogic] Card 0 (Rev) @ (4,3) score: 52.7
+[BotLogic] Card 0 @ (1,4) score: 43.2
+[BotLogic] Card 0 (Rev) @ (5,4) score: 56.5
+[BotLogic] Card 0 @ (2,5) score: 47.6
+[BotLogic] Card 0 (Rev) @ (2,5) score: 46.6
+[BotLogic] Card 0 @ (3,5) score: 49.8
+[BotLogic] Card 0 (Rev) @ (3,5) score: 50.7
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.8
+[BotLogic] Card 5 (Rev) @ (3,3) score: 50.8
+[BotLogic] Card 5 (Rev) @ (4,3) score: 54.0
+[BotLogic] Card 5 @ (1,4) score: 44.1
+[BotLogic] Card 5 (Rev) @ (5,4) score: 55.2
+[BotLogic] Card 5 @ (2,5) score: 47.8
+[BotLogic] Card 5 @ (3,5) score: 49.2
+Decision: PLAY_CARD @ (5,4)
+
+--- Turn 6: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.5
+[BotLogic] Card 1 (Rev) @ (3,3) score: 50.8
+[BotLogic] Card 1 (Rev) @ (4,3) score: 53.6
+[BotLogic] Card 1 (Rev) @ (5,3) score: 56.5
+[BotLogic] Card 1 @ (1,4) score: 43.6
+[BotLogic] Card 1 @ (2,5) score: 47.6
+[BotLogic] Card 1 @ (3,5) score: 50.4
+[BotLogic] Card 1 @ (5,5) score: 56.2
+[BotLogic] Card 2 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 3 @ (2,3) score: 46.1
+[BotLogic] Card 3 (Rev) @ (2,3) score: 47.3
+[BotLogic] Card 3 @ (3,3) score: 50.1
+[BotLogic] Card 3 (Rev) @ (3,3) score: 50.0
+[BotLogic] Card 3 @ (4,3) score: 53.2
+[BotLogic] Card 3 (Rev) @ (4,3) score: 53.8
+[BotLogic] Card 3 @ (5,3) score: 56.8
+[BotLogic] Card 3 (Rev) @ (5,3) score: 56.0
+[BotLogic] Card 3 @ (1,4) score: 43.6
+[BotLogic] Card 3 (Rev) @ (1,4) score: 45.0
+[BotLogic] Card 3 @ (2,5) score: 47.8
+[BotLogic] Card 3 (Rev) @ (2,5) score: 47.6
+[BotLogic] Card 3 @ (3,5) score: 50.4
+[BotLogic] Card 3 (Rev) @ (3,5) score: 49.7
+[BotLogic] Card 3 @ (5,5) score: 56.9
+[BotLogic] Card 3 (Rev) @ (5,5) score: 56.2
+[BotLogic] Card 4 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 5 @ (2,3) score: 47.6
+[BotLogic] Card 5 @ (3,3) score: 49.3
+[BotLogic] Card 5 @ (4,3) score: 53.5
+[BotLogic] Card 5 @ (5,3) score: 56.2
+[BotLogic] Card 5 @ (1,4) score: 43.9
+[BotLogic] Card 5 (Rev) @ (1,4) score: 43.6
+[BotLogic] Card 5 (Rev) @ (2,5) score: 46.8
+[BotLogic] Card 5 (Rev) @ (3,5) score: 50.7
+[BotLogic] Card 5 (Rev) @ (5,5) score: 56.8
+Decision: PLAY_CARD @ (5,5)
+
+--- Turn 7: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 0 (Rev) @ (2,3) score: 1.1
+[BotLogic] Card 0 (Rev) @ (3,3) score: 1.9
+[BotLogic] Card 0 (Rev) @ (4,3) score: 0.9
+[BotLogic] Card 0 (Rev) @ (5,3) score: 1.3
+[BotLogic] Card 0 (Rev) @ (1,4) score: 1.4
+[BotLogic] Card 0 @ (2,5) score: 1.4
+[BotLogic] Card 0 @ (3,5) score: 0.1
+[BotLogic] Card 0 (Rev) @ (4,5) score: 1.0
+[BotLogic] Card 0 @ (6,5) score: 1.8
+[BotLogic] Card 0 @ (5,6) score: 0.9
+[BotLogic] Card 1 @ (2,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 1 @ (3,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (3,3) score: 0.6
+[BotLogic] Card 1 @ (4,3) score: 1.6
+[BotLogic] Card 1 (Rev) @ (4,3) score: 1.7
+[BotLogic] Card 1 @ (5,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (5,3) score: 0.0
+[BotLogic] Card 1 @ (1,4) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 0.7
+[BotLogic] Card 1 @ (3,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (3,5) score: 0.3
+[BotLogic] Card 1 (Rev) @ (6,5) score: 0.4
+[BotLogic] Card 1 @ (5,6) score: 0.3
+[BotLogic] Card 1 (Rev) @ (5,6) score: 0.5
+[BotLogic] Card 2 @ (2,3) score: 1.3
+[BotLogic] Card 2 (Rev) @ (2,3) score: 0.1
+[BotLogic] Card 2 @ (3,3) score: 0.1
+[BotLogic] Card 2 (Rev) @ (3,3) score: 1.9
+[BotLogic] Card 2 @ (4,3) score: 1.3
+[BotLogic] Card 2 (Rev) @ (4,3) score: 0.6
+[BotLogic] Card 2 @ (5,3) score: 1.0
+[BotLogic] Card 2 (Rev) @ (5,3) score: 0.3
+[BotLogic] Card 2 @ (2,5) score: 0.3
+[BotLogic] Card 2 (Rev) @ (2,5) score: 1.8
+[BotLogic] Card 2 @ (3,5) score: 1.6
+[BotLogic] Card 2 (Rev) @ (3,5) score: 1.6
+[BotLogic] Card 2 @ (5,6) score: 0.2
+[BotLogic] Card 2 (Rev) @ (5,6) score: 1.6
+[BotLogic] Card 3 (Rev) @ (2,3) score: 0.1
+[BotLogic] Card 3 (Rev) @ (3,3) score: 1.1
+[BotLogic] Card 3 (Rev) @ (4,3) score: 0.9
+[BotLogic] Card 3 (Rev) @ (5,3) score: 1.4
+[BotLogic] Card 3 (Rev) @ (1,4) score: 0.2
+[BotLogic] Card 3 @ (2,5) score: 0.3
+[BotLogic] Card 3 @ (3,5) score: 1.9
+[BotLogic] Card 3 (Rev) @ (4,5) score: 1.9
+[BotLogic] Card 3 @ (6,5) score: 1.9
+[BotLogic] Card 3 @ (5,6) score: 1.5
+[BotLogic] Card 4 @ (2,3) score: 1.2
+[BotLogic] Card 4 (Rev) @ (2,3) score: 1.4
+[BotLogic] Card 4 @ (3,3) score: 0.7
+[BotLogic] Card 4 (Rev) @ (3,3) score: 0.5
+[BotLogic] Card 4 @ (4,3) score: 1.6
+[BotLogic] Card 4 (Rev) @ (4,3) score: 1.6
+[BotLogic] Card 4 @ (5,3) score: 1.5
+[BotLogic] Card 4 (Rev) @ (5,3) score: 1.7
+[BotLogic] Card 4 @ (1,4) score: 1.9
+[BotLogic] Card 4 @ (2,5) score: 1.4
+[BotLogic] Card 4 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 4 @ (3,5) score: 0.9
+[BotLogic] Card 4 (Rev) @ (3,5) score: 0.7
+[BotLogic] Card 4 (Rev) @ (6,5) score: 0.5
+[BotLogic] Card 4 @ (5,6) score: 0.9
+[BotLogic] Card 4 (Rev) @ (5,6) score: 0.5
+[BotLogic] Card 5 @ (2,3) score: 0.4
+[BotLogic] Card 5 (Rev) @ (2,3) score: 0.7
+[BotLogic] Card 5 @ (3,3) score: 0.1
+[BotLogic] Card 5 (Rev) @ (3,3) score: 0.7
+[BotLogic] Card 5 @ (4,3) score: 0.5
+[BotLogic] Card 5 (Rev) @ (4,3) score: 1.3
+[BotLogic] Card 5 @ (5,3) score: 0.7
+[BotLogic] Card 5 (Rev) @ (5,3) score: 0.9
+[BotLogic] Card 5 @ (1,4) score: 1.6
+[BotLogic] Card 5 @ (2,5) score: 1.9
+[BotLogic] Card 5 (Rev) @ (2,5) score: 0.1
+[BotLogic] Card 5 @ (3,5) score: 1.7
+[BotLogic] Card 5 (Rev) @ (3,5) score: 1.9
+[BotLogic] Card 5 (Rev) @ (6,5) score: 0.8
+[BotLogic] Card 5 @ (5,6) score: 0.8
+[BotLogic] Card 5 (Rev) @ (5,6) score: 1.7
+Decision: PLAY_CARD @ (1,4)
+
+--- Turn 8: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 9: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 4 (Rev) @ (1,3) score: 44.1
+[BotLogic] Card 4 (Rev) @ (2,3) score: 46.4
+[BotLogic] Card 4 (Rev) @ (3,3) score: 49.1
+[BotLogic] Card 4 (Rev) @ (4,3) score: 52.1
+[BotLogic] Card 4 (Rev) @ (5,3) score: 56.5
+[BotLogic] Card 4 @ (1,5) score: 43.3
+[BotLogic] Card 4 @ (2,5) score: 47.7
+[BotLogic] Card 4 @ (3,5) score: 50.6
+[BotLogic] Card 4 (Rev) @ (6,5) score: 58.9
+[BotLogic] Card 4 @ (5,6) score: 56.3
+[BotLogic] Card 5 (ACTION: BREAK_LANTERN) score: 10.0 target: bot-0
+Decision: PLAY_CARD @ (6,5)
+
+--- Turn 10: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 1 (Rev) @ (1,3) score: 43.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 46.1
+[BotLogic] Card 1 (Rev) @ (3,3) score: 49.4
+[BotLogic] Card 1 (Rev) @ (4,3) score: 52.6
+[BotLogic] Card 1 (Rev) @ (5,3) score: 56.0
+[BotLogic] Card 1 @ (1,5) score: 44.9
+[BotLogic] Card 1 @ (2,5) score: 47.5
+[BotLogic] Card 1 @ (3,5) score: 51.0
+[BotLogic] Card 1 @ (5,6) score: 55.3
+[BotLogic] Card 1 @ (6,6) score: 59.7
+[BotLogic] Card 2 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 3 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 4 @ (1,3) score: 44.4
+[BotLogic] Card 4 @ (2,3) score: 47.5
+[BotLogic] Card 4 @ (3,3) score: 49.6
+[BotLogic] Card 4 @ (4,3) score: 52.8
+[BotLogic] Card 4 @ (5,3) score: 56.9
+[BotLogic] Card 4 (Rev) @ (1,5) score: 43.8
+[BotLogic] Card 4 (Rev) @ (2,5) score: 46.9
+[BotLogic] Card 4 (Rev) @ (3,5) score: 49.6
+[BotLogic] Card 4 @ (4,5) score: 53.0
+[BotLogic] Card 4 (Rev) @ (5,6) score: 56.0
+[BotLogic] Card 4 (Rev) @ (6,6) score: 59.9
+[BotLogic] Card 5 (Rev) @ (1,3) score: 44.1
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.5
+[BotLogic] Card 5 (Rev) @ (3,3) score: 49.9
+[BotLogic] Card 5 (Rev) @ (4,3) score: 52.2
+[BotLogic] Card 5 (Rev) @ (5,3) score: 56.3
+[BotLogic] Card 5 @ (1,5) score: 44.9
+[BotLogic] Card 5 @ (2,5) score: 46.8
+[BotLogic] Card 5 @ (3,5) score: 50.9
+[BotLogic] Card 5 @ (5,6) score: 55.6
+[BotLogic] Card 5 @ (6,6) score: 58.5
+Decision: PLAY_CARD @ (6,6)
+
+--- Turn 11: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 0 (Rev) @ (1,3) score: 1.0
+[BotLogic] Card 0 (Rev) @ (2,3) score: 0.2
+[BotLogic] Card 0 (Rev) @ (3,3) score: 0.1
+[BotLogic] Card 0 (Rev) @ (4,3) score: 2.0
+[BotLogic] Card 0 (Rev) @ (5,3) score: 0.2
+[BotLogic] Card 0 @ (1,5) score: 1.2
+[BotLogic] Card 0 @ (2,5) score: 1.0
+[BotLogic] Card 0 @ (3,5) score: 1.5
+[BotLogic] Card 0 (Rev) @ (4,5) score: 0.7
+[BotLogic] Card 0 @ (7,6) score: 1.8
+[BotLogic] Card 1 @ (1,3) score: 0.2
+[BotLogic] Card 1 (Rev) @ (1,3) score: 1.7
+[BotLogic] Card 1 @ (2,3) score: 0.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 @ (3,3) score: 1.9
+[BotLogic] Card 1 (Rev) @ (3,3) score: 0.4
+[BotLogic] Card 1 @ (4,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (4,3) score: 0.7
+[BotLogic] Card 1 @ (5,3) score: 0.2
+[BotLogic] Card 1 (Rev) @ (5,3) score: 1.7
+[BotLogic] Card 1 @ (1,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (1,5) score: 1.3
+[BotLogic] Card 1 @ (2,5) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.5
+[BotLogic] Card 1 @ (3,5) score: 0.7
+[BotLogic] Card 1 (Rev) @ (3,5) score: 1.3
+[BotLogic] Card 1 @ (5,6) score: 1.6
+[BotLogic] Card 1 (Rev) @ (7,6) score: 1.2
+[BotLogic] Card 2 @ (1,3) score: 1.3
+[BotLogic] Card 2 (Rev) @ (1,3) score: 0.8
+[BotLogic] Card 2 @ (2,3) score: 1.5
+[BotLogic] Card 2 (Rev) @ (2,3) score: 0.6
+[BotLogic] Card 2 @ (3,3) score: 1.0
+[BotLogic] Card 2 (Rev) @ (3,3) score: 1.5
+[BotLogic] Card 2 @ (4,3) score: 2.0
+[BotLogic] Card 2 (Rev) @ (4,3) score: 1.9
+[BotLogic] Card 2 @ (5,3) score: 1.4
+[BotLogic] Card 2 (Rev) @ (5,3) score: 0.2
+[BotLogic] Card 2 @ (1,5) score: 0.6
+[BotLogic] Card 2 (Rev) @ (1,5) score: 0.5
+[BotLogic] Card 2 @ (2,5) score: 1.1
+[BotLogic] Card 2 (Rev) @ (2,5) score: 1.8
+[BotLogic] Card 2 @ (3,5) score: 1.9
+[BotLogic] Card 2 (Rev) @ (3,5) score: 1.8
+[BotLogic] Card 3 (Rev) @ (1,3) score: 0.5
+[BotLogic] Card 3 (Rev) @ (2,3) score: 1.5
+[BotLogic] Card 3 (Rev) @ (3,3) score: 0.2
+[BotLogic] Card 3 (Rev) @ (4,3) score: 0.1
+[BotLogic] Card 3 (Rev) @ (5,3) score: 1.5
+[BotLogic] Card 3 @ (1,5) score: 0.2
+[BotLogic] Card 3 @ (2,5) score: 0.3
+[BotLogic] Card 3 @ (3,5) score: 1.8
+[BotLogic] Card 3 (Rev) @ (4,5) score: 0.6
+[BotLogic] Card 3 @ (7,6) score: 1.0
+[BotLogic] Card 4 @ (1,3) score: 1.5
+[BotLogic] Card 4 (Rev) @ (1,3) score: 0.1
+[BotLogic] Card 4 @ (2,3) score: 1.2
+[BotLogic] Card 4 (Rev) @ (2,3) score: 0.3
+[BotLogic] Card 4 @ (3,3) score: 1.9
+[BotLogic] Card 4 (Rev) @ (3,3) score: 1.0
+[BotLogic] Card 4 @ (4,3) score: 1.0
+[BotLogic] Card 4 (Rev) @ (4,3) score: 0.1
+[BotLogic] Card 4 @ (5,3) score: 0.1
+[BotLogic] Card 4 (Rev) @ (5,3) score: 1.5
+[BotLogic] Card 4 @ (1,5) score: 0.5
+[BotLogic] Card 4 (Rev) @ (1,5) score: 1.1
+[BotLogic] Card 4 @ (2,5) score: 0.2
+[BotLogic] Card 4 (Rev) @ (2,5) score: 0.3
+[BotLogic] Card 4 @ (3,5) score: 1.5
+[BotLogic] Card 4 (Rev) @ (3,5) score: 0.7
+[BotLogic] Card 4 @ (5,6) score: 1.1
+[BotLogic] Card 4 (Rev) @ (7,6) score: 0.5
+[BotLogic] Card 5 (ACTION: BREAK_CART) score: 30.0 target: bot-2
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 12: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (ACTION: FIX_CART) score: 40.0 target: bot-2
+[BotLogic] Card 4 (ACTION: FIX_CART) score: 40.0 target: bot-2
+[BotLogic] Card 5 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 13: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 4 (ACTION: BREAK_LANTERN) score: 10.0 target: bot-0
+[BotLogic] Card 5 @ (4,5) score: 52.3
+[BotLogic] Card 5 (Rev) @ (4,5) score: 52.5
+[BotLogic] Card 5 @ (7,6) score: 61.2
+[BotLogic] Card 5 (Rev) @ (7,6) score: 62.2
+Decision: PLAY_CARD @ (7,6)
+
+--- Turn 14: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 1 (Rev) @ (1,3) score: 44.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 46.2
+[BotLogic] Card 1 (Rev) @ (3,3) score: 50.1
+[BotLogic] Card 1 (Rev) @ (4,3) score: 52.5
+[BotLogic] Card 1 (Rev) @ (5,3) score: 56.9
+[BotLogic] Card 1 @ (1,5) score: 44.5
+[BotLogic] Card 1 @ (2,5) score: 47.3
+[BotLogic] Card 1 @ (3,5) score: 50.4
+[BotLogic] Card 1 @ (5,6) score: 56.8
+[BotLogic] Card 1 (Rev) @ (8,6) score: 64.1
+[BotLogic] Card 2 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 3 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 4 (Rev) @ (1,3) score: 44.8
+[BotLogic] Card 4 (Rev) @ (2,3) score: 47.1
+[BotLogic] Card 4 (Rev) @ (3,3) score: 49.7
+[BotLogic] Card 4 (Rev) @ (4,3) score: 53.9
+[BotLogic] Card 4 (Rev) @ (5,3) score: 55.4
+[BotLogic] Card 4 @ (1,5) score: 43.9
+[BotLogic] Card 4 @ (2,5) score: 47.5
+[BotLogic] Card 4 @ (3,5) score: 50.3
+[BotLogic] Card 4 @ (5,6) score: 56.1
+[BotLogic] Card 4 (Rev) @ (8,6) score: 65.7
+[BotLogic] Card 5 @ (1,3) score: 43.2
+[BotLogic] Card 5 (Rev) @ (1,3) score: 43.1
+[BotLogic] Card 5 @ (2,3) score: 47.6
+[BotLogic] Card 5 (Rev) @ (2,3) score: 47.6
+[BotLogic] Card 5 @ (3,3) score: 50.7
+[BotLogic] Card 5 (Rev) @ (3,3) score: 49.5
+[BotLogic] Card 5 @ (4,3) score: 53.0
+[BotLogic] Card 5 (Rev) @ (4,3) score: 52.4
+[BotLogic] Card 5 @ (5,3) score: 55.2
+[BotLogic] Card 5 (Rev) @ (5,3) score: 55.5
+[BotLogic] Card 5 @ (1,5) score: 44.3
+[BotLogic] Card 5 (Rev) @ (1,5) score: 43.7
+[BotLogic] Card 5 @ (2,5) score: 46.0
+[BotLogic] Card 5 (Rev) @ (2,5) score: 46.9
+[BotLogic] Card 5 @ (3,5) score: 50.5
+[BotLogic] Card 5 (Rev) @ (3,5) score: 49.0
+[BotLogic] Card 5 @ (5,6) score: 55.8
+[BotLogic] Card 5 (Rev) @ (8,6) score: 65.5
+Decision: PLAY_CARD @ (8,6)
+
+--- Turn 15: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 0 (Rev) @ (1,3) score: 0.5
+[BotLogic] Card 0 (Rev) @ (2,3) score: 1.8
+[BotLogic] Card 0 (Rev) @ (3,3) score: 0.2
+[BotLogic] Card 0 (Rev) @ (4,3) score: 0.6
+[BotLogic] Card 0 (Rev) @ (5,3) score: 2.0
+[BotLogic] Card 0 @ (1,5) score: 0.5
+[BotLogic] Card 0 @ (2,5) score: 1.6
+[BotLogic] Card 0 @ (3,5) score: 1.4
+[BotLogic] Card 0 (Rev) @ (4,5) score: 0.6
+[BotLogic] Card 0 @ (8,7) score: 30.1
+[BotLogic] Card 1 @ (1,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (1,3) score: 1.0
+[BotLogic] Card 1 @ (2,3) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.6
+[BotLogic] Card 1 @ (3,3) score: 1.6
+[BotLogic] Card 1 (Rev) @ (3,3) score: 1.5
+[BotLogic] Card 1 @ (4,3) score: 0.7
+[BotLogic] Card 1 (Rev) @ (4,3) score: 0.6
+[BotLogic] Card 1 @ (5,3) score: 1.0
+[BotLogic] Card 1 (Rev) @ (5,3) score: 0.2
+[BotLogic] Card 1 @ (1,5) score: 1.5
+[BotLogic] Card 1 (Rev) @ (1,5) score: 0.9
+[BotLogic] Card 1 @ (2,5) score: 1.1
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 1 @ (3,5) score: 1.3
+[BotLogic] Card 1 (Rev) @ (3,5) score: 1.1
+[BotLogic] Card 1 @ (5,6) score: 0.7
+[BotLogic] Card 1 @ (8,7) score: 31.9
+[BotLogic] Card 1 (Rev) @ (8,7) score: 31.0
+[BotLogic] Card 2 @ (1,3) score: 0.2
+[BotLogic] Card 2 (Rev) @ (1,3) score: 0.8
+[BotLogic] Card 2 @ (2,3) score: 1.9
+[BotLogic] Card 2 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 2 @ (3,3) score: 0.0
+[BotLogic] Card 2 (Rev) @ (3,3) score: 1.6
+[BotLogic] Card 2 @ (4,3) score: 0.9
+[BotLogic] Card 2 (Rev) @ (4,3) score: 0.9
+[BotLogic] Card 2 @ (5,3) score: 1.1
+[BotLogic] Card 2 (Rev) @ (5,3) score: 1.6
+[BotLogic] Card 2 @ (1,5) score: 0.3
+[BotLogic] Card 2 (Rev) @ (1,5) score: 1.6
+[BotLogic] Card 2 @ (2,5) score: 0.8
+[BotLogic] Card 2 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 2 @ (3,5) score: 0.8
+[BotLogic] Card 2 (Rev) @ (3,5) score: 1.2
+[BotLogic] Card 2 @ (8,7) score: 31.1
+[BotLogic] Card 2 (Rev) @ (8,7) score: 31.1
+[BotLogic] Card 3 (Rev) @ (1,3) score: 1.5
+[BotLogic] Card 3 (Rev) @ (2,3) score: 1.7
+[BotLogic] Card 3 (Rev) @ (3,3) score: 0.6
+[BotLogic] Card 3 (Rev) @ (4,3) score: 0.2
+[BotLogic] Card 3 (Rev) @ (5,3) score: 1.2
+[BotLogic] Card 3 @ (1,5) score: 0.1
+[BotLogic] Card 3 @ (2,5) score: 0.6
+[BotLogic] Card 3 @ (3,5) score: 0.5
+[BotLogic] Card 3 (Rev) @ (4,5) score: 1.1
+[BotLogic] Card 3 @ (8,7) score: 30.8
+[BotLogic] Card 4 @ (1,3) score: 0.1
+[BotLogic] Card 4 (Rev) @ (1,3) score: 0.6
+[BotLogic] Card 4 @ (2,3) score: 0.0
+[BotLogic] Card 4 (Rev) @ (2,3) score: 0.6
+[BotLogic] Card 4 @ (3,3) score: 0.4
+[BotLogic] Card 4 (Rev) @ (3,3) score: 1.4
+[BotLogic] Card 4 @ (4,3) score: 0.7
+[BotLogic] Card 4 (Rev) @ (4,3) score: 0.1
+[BotLogic] Card 4 @ (5,3) score: 0.6
+[BotLogic] Card 4 (Rev) @ (5,3) score: 1.9
+[BotLogic] Card 4 @ (1,5) score: 1.5
+[BotLogic] Card 4 (Rev) @ (1,5) score: 0.3
+[BotLogic] Card 4 @ (2,5) score: 1.7
+[BotLogic] Card 4 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 4 @ (3,5) score: 1.8
+[BotLogic] Card 4 (Rev) @ (3,5) score: 2.0
+[BotLogic] Card 4 @ (5,6) score: 0.7
+[BotLogic] Card 4 @ (8,7) score: 30.0
+[BotLogic] Card 4 (Rev) @ (8,7) score: 30.5
+[BotLogic] Card 5 @ (1,3) score: 1.8
+[BotLogic] Card 5 (Rev) @ (1,3) score: 0.4
+[BotLogic] Card 5 @ (2,3) score: 0.9
+[BotLogic] Card 5 (Rev) @ (2,3) score: 1.4
+[BotLogic] Card 5 @ (3,3) score: 1.0
+[BotLogic] Card 5 (Rev) @ (3,3) score: 0.4
+[BotLogic] Card 5 @ (4,3) score: 1.8
+[BotLogic] Card 5 (Rev) @ (4,3) score: 0.7
+[BotLogic] Card 5 @ (5,3) score: 1.6
+[BotLogic] Card 5 (Rev) @ (5,3) score: 0.2
+[BotLogic] Card 5 @ (1,5) score: 1.5
+[BotLogic] Card 5 (Rev) @ (1,5) score: 1.6
+[BotLogic] Card 5 @ (2,5) score: 1.2
+[BotLogic] Card 5 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 5 @ (3,5) score: 1.8
+[BotLogic] Card 5 (Rev) @ (3,5) score: 0.5
+[BotLogic] Card 5 @ (5,6) score: 0.9
+[BotLogic] Card 5 (Rev) @ (5,6) score: 1.5
+[BotLogic] Card 5 @ (8,7) score: 30.3
+[BotLogic] Card 5 (Rev) @ (8,7) score: 31.1
+Decision: PLAY_CARD @ (8,7)
+
+--- Turn 16: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 4 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-1
+Decision: PLAY_CARD @ (9,6)
+
+--- Turn 17: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 4 (ACTION: BREAK_LANTERN) score: 10.0 target: bot-0
+[BotLogic] Card 5 (ACTION: FIX_PICKAXE_LANTERN) score: 40.0 target: bot-1
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 18: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 1 (Rev) @ (1,3) score: 43.1
+[BotLogic] Card 1 (Rev) @ (2,3) score: 46.0
+[BotLogic] Card 1 (Rev) @ (3,3) score: 49.9
+[BotLogic] Card 1 (Rev) @ (4,3) score: 53.6
+[BotLogic] Card 1 (Rev) @ (5,3) score: 55.4
+[BotLogic] Card 1 @ (1,5) score: 44.9
+[BotLogic] Card 1 @ (2,5) score: 47.5
+[BotLogic] Card 1 @ (3,5) score: 50.9
+[BotLogic] Card 1 @ (5,6) score: 56.4
+[BotLogic] Card 1 @ (8,8) score: 65.7
+[BotLogic] Card 2 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 3 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 4 @ (1,3) score: 43.3
+[BotLogic] Card 4 (Rev) @ (1,3) score: 43.5
+[BotLogic] Card 4 @ (2,3) score: 47.1
+[BotLogic] Card 4 (Rev) @ (2,3) score: 47.3
+[BotLogic] Card 4 @ (3,3) score: 49.5
+[BotLogic] Card 4 (Rev) @ (3,3) score: 49.4
+[BotLogic] Card 4 @ (4,3) score: 53.5
+[BotLogic] Card 4 (Rev) @ (4,3) score: 52.5
+[BotLogic] Card 4 @ (5,3) score: 55.1
+[BotLogic] Card 4 (Rev) @ (5,3) score: 56.5
+[BotLogic] Card 4 @ (1,5) score: 43.2
+[BotLogic] Card 4 (Rev) @ (1,5) score: 44.0
+[BotLogic] Card 4 @ (2,5) score: 46.8
+[BotLogic] Card 4 (Rev) @ (2,5) score: 46.9
+[BotLogic] Card 4 @ (3,5) score: 50.4
+[BotLogic] Card 4 (Rev) @ (3,5) score: 49.9
+[BotLogic] Card 4 @ (5,6) score: 55.6
+[BotLogic] Card 4 @ (8,8) score: 65.8
+[BotLogic] Card 4 (Rev) @ (8,8) score: 65.2
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-3
+Decision: PLAY_CARD @ (8,8)
+
+--- Turn 19: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 0 (Rev) @ (1,3) score: 1.8
+[BotLogic] Card 0 (Rev) @ (2,3) score: 0.1
+[BotLogic] Card 0 (Rev) @ (3,3) score: 0.5
+[BotLogic] Card 0 (Rev) @ (4,3) score: 0.2
+[BotLogic] Card 0 (Rev) @ (5,3) score: 0.9
+[BotLogic] Card 0 @ (1,5) score: 0.9
+[BotLogic] Card 0 @ (2,5) score: 1.1
+[BotLogic] Card 0 @ (3,5) score: 0.4
+[BotLogic] Card 0 (Rev) @ (4,5) score: 1.1
+[BotLogic] Card 0 @ (9,7) score: 181.7
+[BotLogic] Card 0 @ (9,8) score: 201.5
+[BotLogic] Card 1 @ (1,3) score: 0.9
+[BotLogic] Card 1 (Rev) @ (1,3) score: 1.4
+[BotLogic] Card 1 @ (2,3) score: 1.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 0.5
+[BotLogic] Card 1 @ (3,3) score: 1.5
+[BotLogic] Card 1 (Rev) @ (3,3) score: 1.8
+[BotLogic] Card 1 @ (4,3) score: 0.1
+[BotLogic] Card 1 (Rev) @ (4,3) score: 0.3
+[BotLogic] Card 1 @ (5,3) score: 1.7
+[BotLogic] Card 1 (Rev) @ (5,3) score: 1.5
+[BotLogic] Card 1 @ (1,5) score: 0.9
+[BotLogic] Card 1 (Rev) @ (1,5) score: 1.5
+[BotLogic] Card 1 @ (2,5) score: 0.8
+[BotLogic] Card 1 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 1 @ (3,5) score: 1.4
+[BotLogic] Card 1 (Rev) @ (3,5) score: 1.7
+[BotLogic] Card 2 (Rev) @ (1,3) score: 1.5
+[BotLogic] Card 2 (Rev) @ (2,3) score: 0.5
+[BotLogic] Card 2 (Rev) @ (3,3) score: 1.5
+[BotLogic] Card 2 (Rev) @ (4,3) score: 1.2
+[BotLogic] Card 2 (Rev) @ (5,3) score: 0.7
+[BotLogic] Card 2 @ (1,5) score: 0.2
+[BotLogic] Card 2 @ (2,5) score: 0.8
+[BotLogic] Card 2 @ (3,5) score: 1.3
+[BotLogic] Card 2 (Rev) @ (4,5) score: 1.5
+[BotLogic] Card 2 @ (9,7) score: 181.9
+[BotLogic] Card 2 @ (9,8) score: 200.5
+[BotLogic] Card 3 @ (1,3) score: 0.1
+[BotLogic] Card 3 (Rev) @ (1,3) score: 2.0
+[BotLogic] Card 3 @ (2,3) score: 1.1
+[BotLogic] Card 3 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 3 @ (3,3) score: 1.6
+[BotLogic] Card 3 (Rev) @ (3,3) score: 1.8
+[BotLogic] Card 3 @ (4,3) score: 2.0
+[BotLogic] Card 3 (Rev) @ (4,3) score: 0.1
+[BotLogic] Card 3 @ (5,3) score: 0.5
+[BotLogic] Card 3 (Rev) @ (5,3) score: 1.3
+[BotLogic] Card 3 @ (1,5) score: 1.8
+[BotLogic] Card 3 (Rev) @ (1,5) score: 0.3
+[BotLogic] Card 3 @ (2,5) score: 1.8
+[BotLogic] Card 3 (Rev) @ (2,5) score: 1.9
+[BotLogic] Card 3 @ (3,5) score: 0.6
+[BotLogic] Card 3 (Rev) @ (3,5) score: 0.9
+[BotLogic] Card 3 @ (5,6) score: 1.9
+[BotLogic] Card 3 (Rev) @ (9,7) score: 180.8
+[BotLogic] Card 3 (Rev) @ (9,8) score: 201.4
+[BotLogic] Card 4 @ (1,3) score: 1.0
+[BotLogic] Card 4 (Rev) @ (1,3) score: 0.3
+[BotLogic] Card 4 @ (2,3) score: 0.8
+[BotLogic] Card 4 (Rev) @ (2,3) score: 0.4
+[BotLogic] Card 4 @ (3,3) score: 1.4
+[BotLogic] Card 4 (Rev) @ (3,3) score: 0.7
+[BotLogic] Card 4 @ (4,3) score: 0.7
+[BotLogic] Card 4 (Rev) @ (4,3) score: 1.0
+[BotLogic] Card 4 @ (5,3) score: 0.3
+[BotLogic] Card 4 (Rev) @ (5,3) score: 1.5
+[BotLogic] Card 4 @ (1,5) score: 0.3
+[BotLogic] Card 4 (Rev) @ (1,5) score: 0.1
+[BotLogic] Card 4 @ (2,5) score: 0.8
+[BotLogic] Card 4 (Rev) @ (2,5) score: 1.1
+[BotLogic] Card 4 @ (3,5) score: 0.1
+[BotLogic] Card 4 (Rev) @ (3,5) score: 1.1
+[BotLogic] Card 4 @ (5,6) score: 1.6
+[BotLogic] Card 4 (Rev) @ (5,6) score: 1.1
+[BotLogic] Card 4 @ (9,7) score: 181.7
+[BotLogic] Card 4 (Rev) @ (9,7) score: 181.6
+[BotLogic] Card 4 @ (9,8) score: 200.3
+[BotLogic] Card 4 (Rev) @ (9,8) score: 201.4
+[BotLogic] Card 5 (Rev) @ (1,3) score: 1.2
+[BotLogic] Card 5 (Rev) @ (2,3) score: 1.9
+[BotLogic] Card 5 (Rev) @ (3,3) score: 1.0
+[BotLogic] Card 5 (Rev) @ (4,3) score: 0.9
+[BotLogic] Card 5 (Rev) @ (5,3) score: 0.5
+[BotLogic] Card 5 @ (1,5) score: 2.0
+[BotLogic] Card 5 @ (2,5) score: 1.3
+[BotLogic] Card 5 @ (3,5) score: 0.8
+[BotLogic] Card 5 @ (5,6) score: 1.0
+[BotLogic] Card 5 (Rev) @ (9,7) score: 180.6
+[BotLogic] Card 5 (Rev) @ (9,8) score: 201.0
+Decision: PLAY_CARD @ (9,8)
+
+--- Turn 20: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 1 @ (1,3) score: 43.3
+[BotLogic] Card 1 @ (2,3) score: 47.7
+[BotLogic] Card 1 @ (3,3) score: 50.1
+[BotLogic] Card 1 @ (4,3) score: 53.5
+[BotLogic] Card 1 @ (5,3) score: 55.2
+[BotLogic] Card 1 (Rev) @ (1,5) score: 44.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 47.9
+[BotLogic] Card 1 (Rev) @ (3,5) score: 50.6
+[BotLogic] Card 1 @ (4,5) score: 53.2
+[BotLogic] Card 1 (Rev) @ (5,6) score: 56.2
+[BotLogic] Card 1 @ (9,7) score: 51.0
+[BotLogic] Card 4 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-1
+Decision: PLAY_CARD @ (5,6)
+
+--- Turn 21: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 4 (ACTION: BREAK_LANTERN) score: 10.0 target: bot-0
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-2
+Decision: PLAY_CARD @ (9,2)
+
+--- Turn 22: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 1 (Rev) @ (1,3) score: 43.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.9
+[BotLogic] Card 1 (Rev) @ (3,3) score: 49.2
+[BotLogic] Card 1 (Rev) @ (4,3) score: 52.4
+[BotLogic] Card 1 (Rev) @ (5,3) score: 55.4
+[BotLogic] Card 1 @ (1,5) score: 43.6
+[BotLogic] Card 1 @ (2,5) score: 46.9
+[BotLogic] Card 1 @ (3,5) score: 50.3
+[BotLogic] Card 1 @ (4,6) score: 53.0
+[BotLogic] Card 1 (Rev) @ (9,7) score: 51.6
+[BotLogic] Card 2 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 3 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 4 (ACTION: MAP) score: 15.0 target: bot-3
+[BotLogic] Card 5 @ (4,5) score: 53.4
+[BotLogic] Card 5 (Rev) @ (4,5) score: 52.7
+[BotLogic] Card 5 @ (4,6) score: 53.2
+[BotLogic] Card 5 (Rev) @ (4,6) score: 53.1
+Decision: PLAY_CARD @ (5,3)
+
+--- Turn 23: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 0 @ (1,3) score: 1.9
+[BotLogic] Card 0 (Rev) @ (1,3) score: 0.6
+[BotLogic] Card 0 @ (2,3) score: 0.5
+[BotLogic] Card 0 (Rev) @ (2,3) score: 0.9
+[BotLogic] Card 0 @ (3,3) score: 0.5
+[BotLogic] Card 0 (Rev) @ (3,3) score: 1.1
+[BotLogic] Card 0 @ (1,5) score: 0.8
+[BotLogic] Card 0 (Rev) @ (1,5) score: 1.9
+[BotLogic] Card 0 @ (2,5) score: 1.6
+[BotLogic] Card 0 (Rev) @ (2,5) score: 1.3
+[BotLogic] Card 0 @ (3,5) score: 0.9
+[BotLogic] Card 0 (Rev) @ (3,5) score: 1.0
+[BotLogic] Card 1 (Rev) @ (1,3) score: 1.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (3,3) score: 1.2
+[BotLogic] Card 1 (Rev) @ (4,3) score: 0.2
+[BotLogic] Card 1 @ (1,5) score: 1.2
+[BotLogic] Card 1 @ (2,5) score: 0.4
+[BotLogic] Card 1 @ (3,5) score: 1.2
+[BotLogic] Card 1 (Rev) @ (4,5) score: 0.3
+[BotLogic] Card 1 (Rev) @ (4,6) score: 0.7
+[BotLogic] Card 2 @ (1,3) score: 2.0
+[BotLogic] Card 2 (Rev) @ (1,3) score: 0.4
+[BotLogic] Card 2 @ (2,3) score: 0.3
+[BotLogic] Card 2 (Rev) @ (2,3) score: 2.0
+[BotLogic] Card 2 @ (3,3) score: 1.3
+[BotLogic] Card 2 (Rev) @ (3,3) score: 0.1
+[BotLogic] Card 2 @ (4,3) score: 2.0
+[BotLogic] Card 2 @ (1,5) score: 1.1
+[BotLogic] Card 2 (Rev) @ (1,5) score: 1.3
+[BotLogic] Card 2 @ (2,5) score: 1.5
+[BotLogic] Card 2 (Rev) @ (2,5) score: 1.4
+[BotLogic] Card 2 @ (3,5) score: 1.3
+[BotLogic] Card 2 (Rev) @ (3,5) score: 1.6
+[BotLogic] Card 2 @ (4,6) score: 1.0
+[BotLogic] Card 2 (Rev) @ (9,7) score: 31.2
+[BotLogic] Card 3 @ (1,3) score: 0.4
+[BotLogic] Card 3 (Rev) @ (1,3) score: 0.7
+[BotLogic] Card 3 @ (2,3) score: 1.4
+[BotLogic] Card 3 (Rev) @ (2,3) score: 0.5
+[BotLogic] Card 3 @ (3,3) score: 0.5
+[BotLogic] Card 3 (Rev) @ (3,3) score: 0.0
+[BotLogic] Card 3 @ (4,3) score: 0.9
+[BotLogic] Card 3 (Rev) @ (4,3) score: 0.1
+[BotLogic] Card 3 @ (1,5) score: 1.4
+[BotLogic] Card 3 (Rev) @ (1,5) score: 1.1
+[BotLogic] Card 3 @ (2,5) score: 2.0
+[BotLogic] Card 3 (Rev) @ (2,5) score: 1.7
+[BotLogic] Card 3 @ (3,5) score: 0.9
+[BotLogic] Card 3 (Rev) @ (3,5) score: 1.6
+[BotLogic] Card 3 @ (4,6) score: 0.2
+[BotLogic] Card 3 (Rev) @ (4,6) score: 1.8
+[BotLogic] Card 3 @ (9,7) score: 30.2
+[BotLogic] Card 3 (Rev) @ (9,7) score: 31.4
+[BotLogic] Card 4 (Rev) @ (1,3) score: 0.9
+[BotLogic] Card 4 (Rev) @ (2,3) score: 0.8
+[BotLogic] Card 4 (Rev) @ (3,3) score: 0.1
+[BotLogic] Card 4 @ (1,5) score: 1.8
+[BotLogic] Card 4 @ (2,5) score: 0.9
+[BotLogic] Card 4 @ (3,5) score: 1.4
+[BotLogic] Card 4 @ (4,6) score: 0.1
+[BotLogic] Card 4 (Rev) @ (9,7) score: 30.9
+[BotLogic] Card 5 @ (1,3) score: 0.1
+[BotLogic] Card 5 (Rev) @ (1,3) score: 1.4
+[BotLogic] Card 5 @ (2,3) score: 0.3
+[BotLogic] Card 5 (Rev) @ (2,3) score: 1.4
+[BotLogic] Card 5 @ (3,3) score: 1.8
+[BotLogic] Card 5 (Rev) @ (3,3) score: 1.8
+[BotLogic] Card 5 @ (1,5) score: 1.9
+[BotLogic] Card 5 (Rev) @ (1,5) score: 0.5
+[BotLogic] Card 5 @ (2,5) score: 1.4
+[BotLogic] Card 5 (Rev) @ (2,5) score: 1.2
+[BotLogic] Card 5 @ (3,5) score: 1.1
+[BotLogic] Card 5 (Rev) @ (3,5) score: 1.9
+Decision: PLAY_CARD @ (9,7)
+
+--- Turn 24: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: BREAK_PICKAXE) score: 10.0 target: bot-0
+[BotLogic] Card 4 (ACTION: MAP) score: 15.0 target: bot-1
+Decision: PLAY_CARD @ (9,2)
+
+--- Turn 25: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 4 (ACTION: BREAK_LANTERN) score: 10.0 target: bot-0
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 26: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-3
+[BotLogic] Card 4 @ (4,5) score: 52.2
+[BotLogic] Card 4 (Rev) @ (4,5) score: 53.6
+[BotLogic] Card 4 @ (4,6) score: 53.7
+[BotLogic] Card 4 (Rev) @ (4,6) score: 53.8
+[BotLogic] Card 4 @ (10,7) score: 1.0
+[BotLogic] Card 4 (Rev) @ (10,7) score: 0.7
+[BotLogic] Card 5 @ (1,3) score: 43.6
+[BotLogic] Card 5 (Rev) @ (1,3) score: 43.7
+[BotLogic] Card 5 @ (2,3) score: 47.8
+[BotLogic] Card 5 (Rev) @ (2,3) score: 47.4
+[BotLogic] Card 5 @ (3,3) score: 50.4
+[BotLogic] Card 5 (Rev) @ (3,3) score: 50.9
+[BotLogic] Card 5 @ (1,5) score: 44.1
+[BotLogic] Card 5 (Rev) @ (1,5) score: 44.0
+[BotLogic] Card 5 @ (2,5) score: 47.6
+[BotLogic] Card 5 (Rev) @ (2,5) score: 47.0
+[BotLogic] Card 5 @ (3,5) score: 50.3
+[BotLogic] Card 5 (Rev) @ (3,5) score: 50.7
+[BotLogic] Card 5 @ (9,5) score: 1.8
+[BotLogic] Card 5 (Rev) @ (9,5) score: 0.9
+Decision: PLAY_CARD @ (4,6)
+
+--- Turn 27: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 28: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 5 @ (1,3) score: 44.5
+[BotLogic] Card 5 @ (2,3) score: 47.0
+[BotLogic] Card 5 @ (3,3) score: 49.3
+[BotLogic] Card 5 @ (4,3) score: 54.0
+[BotLogic] Card 5 (Rev) @ (1,5) score: 44.8
+[BotLogic] Card 5 (Rev) @ (2,5) score: 47.3
+[BotLogic] Card 5 (Rev) @ (3,5) score: 49.5
+[BotLogic] Card 5 @ (9,5) score: 1.7
+[BotLogic] Card 5 @ (3,6) score: 50.0
+[BotLogic] Card 5 (Rev) @ (3,6) score: 50.6
+[BotLogic] Card 5 @ (10,7) score: 0.2
+[BotLogic] Card 5 (Rev) @ (10,7) score: 0.1
+Decision: PLAY_CARD @ (4,3)
+
+--- Turn 29: Bot 2 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (9,5)
+
+--- Turn 30: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-3
+[BotLogic] Card 4 @ (1,3) score: 44.1
+[BotLogic] Card 4 (Rev) @ (1,3) score: 43.6
+[BotLogic] Card 4 @ (2,3) score: 46.5
+[BotLogic] Card 4 (Rev) @ (2,3) score: 46.7
+[BotLogic] Card 4 @ (9,3) score: 1.4
+[BotLogic] Card 4 (Rev) @ (9,3) score: 0.9
+[BotLogic] Card 4 @ (1,5) score: 43.7
+[BotLogic] Card 4 (Rev) @ (1,5) score: 44.8
+[BotLogic] Card 4 @ (2,5) score: 47.3
+[BotLogic] Card 4 (Rev) @ (2,5) score: 46.4
+[BotLogic] Card 4 @ (3,5) score: 50.6
+[BotLogic] Card 4 (Rev) @ (3,5) score: 49.9
+Decision: PLAY_CARD @ (3,5)
+
+--- Turn 31: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-0
+Decision: PLAY_CARD @ (9,4)
+
+--- Turn 32: Bot 1 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (2,5)
+
+--- Turn 33: Bot 2 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (9,3)
+
+--- Turn 34: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-3
+Decision: PLAY_CARD @ (9,4)
+
+--- Turn 35: Bot 0 (SABOTEUR) ---
+[BotLogic] Card 5 (ACTION: BREAK_CART) score: 30.0 target: bot-1
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 36: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 2 (ACTION: FIX_CART) score: 140.0 target: bot-1
+[BotLogic] Card 4 (ACTION: FIX_LANTERN_CART) score: 140.0 target: bot-1
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 37: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-2
+Decision: PLAY_CARD @ (9,4)
+
+--- Turn 38: Bot 3 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (1,3)
+
+--- Turn 39: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 40: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 4 @ (1,2) score: 0.9
+[BotLogic] Card 4 (Rev) @ (1,2) score: 1.2
+[BotLogic] Card 4 @ (3,3) score: 49.2
+[BotLogic] Card 4 (Rev) @ (3,3) score: 49.7
+[BotLogic] Card 4 @ (3,6) score: 49.0
+[BotLogic] Card 4 (Rev) @ (3,6) score: 50.7
+[BotLogic] Card 4 @ (10,7) score: 1.1
+[BotLogic] Card 4 (Rev) @ (10,7) score: 0.3
+Decision: PLAY_CARD @ (3,6)
+
+--- Turn 41: Bot 2 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (10,7)
+
+--- Turn 42: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 43: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 44: Bot 1 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (4,5)
+
+--- Turn 45: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 5 @ (2,6) score: 47.1
+[BotLogic] Card 5 (Rev) @ (2,6) score: 47.7
+Decision: PLAY_CARD @ (2,6)
+
+--- Turn 46: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 5 @ (1,2) score: 0.5
+[BotLogic] Card 5 (Rev) @ (1,2) score: 1.4
+[BotLogic] Card 5 @ (2,3) score: 47.8
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.5
+[BotLogic] Card 5 @ (1,5) score: 43.3
+[BotLogic] Card 5 (Rev) @ (1,5) score: 43.8
+[BotLogic] Card 5 @ (10,6) score: 1.2
+[BotLogic] Card 5 (Rev) @ (10,6) score: 1.6
+[BotLogic] Card 5 @ (3,7) score: 50.5
+[BotLogic] Card 5 (Rev) @ (3,7) score: 49.1
+Decision: PLAY_CARD @ (3,7)
+
+--- Turn 47: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 48: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 49: Bot 2 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (1,2)
+
+--- Turn 50: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 51: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 52: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 53: Bot 2 (GOLD_DIGGER) ---
+Decision: PLAY_CARD @ (1,6)
+
+--- Turn 54: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 55: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 56: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 57: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 58: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 59: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 60: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 61: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 62: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 63: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 64: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 65: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 66: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Turn 67: Bot 0 (SABOTEUR) ---
+[BotLogic] No good action found (or forced pass), discarding.
+Decision: DISCARD 
+
+--- Game Over ---
+Status: ROUND_FINISHED
+Turns: 67
+Result: Timeout or Stalled

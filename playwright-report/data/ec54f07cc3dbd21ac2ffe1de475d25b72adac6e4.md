@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - img
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - heading "お邪魔もの Online" [level=1] [ref=e6]
+      - generic [ref=e7]: ● Online
+    - main [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - button "🕵️ 役割を確認" [ref=e12] [cursor=pointer]:
+              - generic [ref=e13]: 🕵️
+              - generic [ref=e14]: 役割を確認
+            - generic [ref=e15]:
+              - generic [ref=e16]: DECK
+              - generic [ref=e17]: "53"
+            - generic [ref=e18]: "Turn: AutoTester"
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - generic "AutoTester" [ref=e21]: 🐶
+              - generic "AutoTester" [ref=e22]
+              - generic [ref=e23]:
+                - generic "つるはし正常" [ref=e24]: ⛏️
+                - generic "ランプ正常" [ref=e25]: 🔦
+                - generic "トロッコ正常" [ref=e26]: 🚂
+            - generic [ref=e27]:
+              - generic "炭鉱ロボ1号 (2)" [ref=e28]: 🤖
+              - generic "炭鉱ロボ1号 (2)" [ref=e29]
+              - generic [ref=e30]:
+                - generic "つるはし正常" [ref=e31]: ⛏️
+                - generic "ランプ正常" [ref=e32]: 🔦
+                - generic "トロッコ正常" [ref=e33]: 🚂
+            - generic [ref=e34]:
+              - generic "炭鉱ロボ1号 (3)" [ref=e35]: 🤖
+              - generic "炭鉱ロボ1号 (3)" [ref=e36]
+              - generic [ref=e37]:
+                - generic "つるはし正常" [ref=e38]: ⛏️
+                - generic "ランプ正常" [ref=e39]: 🔦
+                - generic "トロッコ正常" [ref=e40]: 🚂
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - button "+" [ref=e43] [cursor=pointer]
+            - button "-" [ref=e44] [cursor=pointer]
+            - button "リセット" [ref=e45] [cursor=pointer]
+          - generic [ref=e46]:
+            - img "Goal" [ref=e153] [cursor=pointer]
+            - img "Start" [ref=e166] [cursor=pointer]
+            - img "Goal" [ref=e213] [cursor=pointer]
+            - img "Goal" [ref=e242] [cursor=pointer]
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - button "💬 1" [ref=e323] [cursor=pointer]:
+              - text: 💬
+              - generic [ref=e324]: "1"
+            - button "😀" [ref=e325] [cursor=pointer]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - heading "捨てるカードを選択してください" [level=3] [ref=e328]
+              - button "キャンセル" [ref=e330] [cursor=pointer]
+            - generic [ref=e331]:
+              - generic [ref=e386] [cursor=pointer]:
+                - img "破壊:ランプ" [ref=e387]
+                - generic [ref=e388]: 破壊:ランプ
+              - generic [ref=e391] [cursor=pointer]:
+                - img "破壊:トロッコ" [ref=e392]
+                - generic [ref=e393]: 破壊:トロッコ
+```

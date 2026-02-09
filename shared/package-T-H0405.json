@@ -1,0 +1,14 @@
+{
+    "name": "@ojamamono/shared",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "gen:csharp": "quicktype -s typescript -o ../../../../OjamamonoUnity/Assets/Scripts/Models/GeneratedModels.cs src/types.ts --namespace Ojamamono.Models --lang csharp"
+    },
+    "devDependencies": {
+        "quicktype": "^23.2.6",
+        "typescript": "^5.3.3"
+    }
+}

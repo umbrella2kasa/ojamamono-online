@@ -1,0 +1,830 @@
+--- Starting Debug Simulation ---
+Initializing Room...
+[GridManager] Grid initialized: {
+  width: 12,
+  height: 9,
+  totalCells: 108,
+  startCard: {
+    card: { id: 'start', type: 'PATH', shape: [Object], isStart: true },
+    isReversed: false
+  },
+  goalIndices: [ 33, 57, 81 ],
+  nonNullCells: 4
+}
+Starting Game...
+[Room] Assigned roles for 4 players: 4 Gold-Diggers, 1 Saboteurs
+[Room] Deck created with 67 cards (expected: 71)
+[Room] Player Bot 0 dealt 6 cards: PATH(s147g84xe), PATH(gtwdnrywq), PATH(bb4nzv2nk), ACTION(e2zkbsc5), PATH(n1dtylyik), PATH(jad4v5z3z)
+[Room] Player Bot 1 dealt 6 cards: PATH(egn8v8jcs), PATH(yd3me37tk), ACTION(vap74l8g), ACTION(k58ugbc4), PATH(0krxcdfrt), PATH(petva2b32)
+[Room] Player Bot 2 dealt 6 cards: ACTION(qv7xj9dq), PATH(ir1yreu23), PATH(oex4p6byt), PATH(e3himjguu), ACTION(rjrxef9h), PATH(b8p8fdn2v)
+[Room] Player Bot 3 dealt 6 cards: PATH(vxa981ukg), ACTION(1s9guqof), PATH(8hb775ahu), PATH(peow4bdj8), ACTION(ue08zzii), PATH(fhj2aima2)
+[GridManager] Grid initialized: {
+  width: 12,
+  height: 9,
+  totalCells: 108,
+  startCard: {
+    card: { id: 'start', type: 'PATH', shape: [Object], isStart: true },
+    isReversed: false
+  },
+  goalIndices: [ 33, 57, 81 ],
+  nonNullCells: 4
+}
+
+--- Turn 1: Bot 0 (GOLD_DIGGER) ---
+[BotLogic] Card 1 @ (2,3) score: 47.8
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.7
+[BotLogic] Card 1 @ (1,4) score: 44.6
+[BotLogic] Card 1 (Rev) @ (1,4) score: 44.0
+[BotLogic] Card 1 @ (3,4) score: 49.2
+[BotLogic] Card 1 (Rev) @ (3,4) score: 50.4
+[BotLogic] Card 1 @ (2,5) score: 47.5
+[BotLogic] Card 1 (Rev) @ (2,5) score: 47.8
+[BotLogic] Card 2 @ (2,3) score: 47.2
+[BotLogic] Card 2 @ (1,4) score: 44.7
+[BotLogic] Card 2 (Rev) @ (1,4) score: 43.7
+[BotLogic] Card 2 @ (3,4) score: 50.9
+[BotLogic] Card 2 (Rev) @ (3,4) score: 50.3
+[BotLogic] Card 2 (Rev) @ (2,5) score: 46.4
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-0
+[BotLogic] Card 4 (Rev) @ (2,3) score: 47.1
+[BotLogic] Card 4 (Rev) @ (1,4) score: 44.3
+[BotLogic] Card 4 @ (3,4) score: 49.2
+[BotLogic] Card 4 @ (2,5) score: 47.9
+[BotLogic] Card 5 @ (2,3) score: 47.4
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.3
+[BotLogic] Card 5 @ (2,5) score: 46.5
+[BotLogic] Card 5 (Rev) @ (2,5) score: 46.4
+Decision: PLAY_CARD @ (3,4)
+
+--- Turn 2: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (2,3) score: 46.6
+[BotLogic] Card 0 (Rev) @ (2,3) score: 46.5
+[BotLogic] Card 0 @ (1,4) score: 44.0
+[BotLogic] Card 0 (Rev) @ (4,4) score: 53.3
+[BotLogic] Card 0 @ (2,5) score: 46.2
+[BotLogic] Card 0 (Rev) @ (2,5) score: 47.2
+[BotLogic] Card 0 @ (3,5) score: 49.5
+[BotLogic] Card 0 (Rev) @ (3,5) score: 50.5
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.0
+[BotLogic] Card 1 @ (1,4) score: 44.2
+[BotLogic] Card 1 (Rev) @ (4,4) score: 52.3
+[BotLogic] Card 1 @ (2,5) score: 47.2
+[BotLogic] Card 1 @ (3,5) score: 49.3
+[BotLogic] Card 5 @ (1,4) score: 43.5
+[BotLogic] Card 5 (Rev) @ (1,4) score: 44.2
+[BotLogic] Card 5 @ (4,4) score: 53.2
+[BotLogic] Card 5 (Rev) @ (4,4) score: 53.1
+Decision: PLAY_CARD @ (4,4)
+
+--- Turn 3: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (ACTION: FIX_PICKAXE_LANTERN) score: 40.0 target: bot-2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 46.5
+[BotLogic] Card 1 (Rev) @ (4,3) score: 53.3
+[BotLogic] Card 1 (Rev) @ (1,4) score: 43.4
+[BotLogic] Card 1 @ (2,5) score: 47.7
+[BotLogic] Card 1 @ (3,5) score: 50.9
+[BotLogic] Card 1 @ (4,5) score: 53.9
+[BotLogic] Card 2 @ (2,3) score: 47.1
+[BotLogic] Card 2 (Rev) @ (2,3) score: 47.9
+[BotLogic] Card 2 @ (4,3) score: 53.9
+[BotLogic] Card 2 (Rev) @ (4,3) score: 52.7
+[BotLogic] Card 2 @ (2,5) score: 46.7
+[BotLogic] Card 2 (Rev) @ (2,5) score: 46.7
+[BotLogic] Card 2 @ (3,5) score: 49.7
+[BotLogic] Card 2 (Rev) @ (3,5) score: 50.2
+[BotLogic] Card 2 @ (4,5) score: 53.1
+[BotLogic] Card 2 (Rev) @ (4,5) score: 53.1
+[BotLogic] Card 5 @ (2,3) score: 47.9
+[BotLogic] Card 5 (Rev) @ (2,3) score: 47.4
+[BotLogic] Card 5 @ (4,3) score: 53.2
+[BotLogic] Card 5 (Rev) @ (4,3) score: 53.5
+[BotLogic] Card 5 @ (2,5) score: 46.6
+[BotLogic] Card 5 (Rev) @ (2,5) score: 46.9
+[BotLogic] Card 5 @ (3,5) score: 49.4
+[BotLogic] Card 5 (Rev) @ (3,5) score: 49.9
+[BotLogic] Card 5 @ (4,5) score: 53.3
+[BotLogic] Card 5 (Rev) @ (4,5) score: 52.5
+Decision: PLAY_CARD @ (4,3)
+
+--- Turn 4: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (1,4) score: 43.3
+[BotLogic] Card 0 (Rev) @ (1,4) score: 44.4
+[BotLogic] Card 2 (Rev) @ (4,2) score: 52.7
+[BotLogic] Card 2 (Rev) @ (2,3) score: 47.9
+[BotLogic] Card 2 @ (1,4) score: 44.9
+[BotLogic] Card 2 @ (2,5) score: 47.2
+[BotLogic] Card 2 @ (3,5) score: 49.6
+[BotLogic] Card 2 @ (4,5) score: 53.2
+[BotLogic] Card 5 @ (4,2) score: 52.2
+[BotLogic] Card 5 @ (2,3) score: 47.7
+[BotLogic] Card 5 @ (1,4) score: 44.1
+[BotLogic] Card 5 (Rev) @ (1,4) score: 43.4
+[BotLogic] Card 5 (Rev) @ (2,5) score: 47.7
+[BotLogic] Card 5 (Rev) @ (3,5) score: 51.0
+[BotLogic] Card 5 (Rev) @ (4,5) score: 53.8
+Decision: PLAY_CARD @ (4,5)
+
+--- Turn 5: Bot 0 (GOLD_DIGGER) ---
+[BotLogic] Card 1 @ (4,2) score: 52.4
+[BotLogic] Card 1 (Rev) @ (4,2) score: 52.8
+[BotLogic] Card 1 @ (2,3) score: 47.7
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.1
+[BotLogic] Card 1 @ (1,4) score: 43.4
+[BotLogic] Card 1 (Rev) @ (1,4) score: 44.3
+[BotLogic] Card 1 @ (2,5) score: 46.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 47.5
+[BotLogic] Card 1 @ (3,5) score: 49.5
+[BotLogic] Card 1 (Rev) @ (3,5) score: 50.7
+[BotLogic] Card 1 @ (5,5) score: 56.8
+[BotLogic] Card 1 (Rev) @ (5,5) score: 56.7
+[BotLogic] Card 2 (ACTION: MAP) score: 15.0 target: bot-0
+[BotLogic] Card 3 (Rev) @ (4,2) score: 53.4
+[BotLogic] Card 3 (Rev) @ (2,3) score: 46.9
+[BotLogic] Card 3 (Rev) @ (1,4) score: 43.8
+[BotLogic] Card 3 @ (2,5) score: 46.1
+[BotLogic] Card 3 @ (5,5) score: 56.2
+[BotLogic] Card 4 @ (4,2) score: 53.8
+[BotLogic] Card 4 (Rev) @ (4,2) score: 53.0
+[BotLogic] Card 4 @ (2,3) score: 47.6
+[BotLogic] Card 4 (Rev) @ (2,3) score: 46.1
+[BotLogic] Card 4 @ (2,5) score: 47.1
+[BotLogic] Card 4 (Rev) @ (2,5) score: 46.3
+[BotLogic] Card 5 @ (4,2) score: 52.0
+[BotLogic] Card 5 (Rev) @ (4,2) score: 52.5
+[BotLogic] Card 5 @ (2,3) score: 47.5
+[BotLogic] Card 5 (Rev) @ (2,3) score: 47.0
+[BotLogic] Card 5 @ (1,4) score: 43.7
+[BotLogic] Card 5 (Rev) @ (1,4) score: 44.4
+[BotLogic] Card 5 @ (2,5) score: 47.0
+[BotLogic] Card 5 (Rev) @ (2,5) score: 46.6
+[BotLogic] Card 5 @ (3,5) score: 49.8
+[BotLogic] Card 5 (Rev) @ (3,5) score: 49.4
+[BotLogic] Card 5 @ (5,5) score: 56.8
+[BotLogic] Card 5 (Rev) @ (5,5) score: 56.5
+Decision: PLAY_CARD @ (5,5)
+
+--- Turn 6: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (Rev) @ (4,2) score: 53.7
+[BotLogic] Card 0 (Rev) @ (2,3) score: 46.5
+[BotLogic] Card 0 @ (1,4) score: 44.9
+[BotLogic] Card 0 @ (2,5) score: 46.3
+[BotLogic] Card 0 @ (3,5) score: 50.5
+[BotLogic] Card 0 (Rev) @ (6,5) score: 59.8
+[BotLogic] Card 0 @ (5,6) score: 55.1
+[BotLogic] Card 4 @ (1,4) score: 44.6
+[BotLogic] Card 4 (Rev) @ (1,4) score: 43.3
+[BotLogic] Card 4 @ (6,5) score: 58.3
+[BotLogic] Card 4 (Rev) @ (6,5) score: 58.9
+[BotLogic] Card 5 @ (4,2) score: 52.0
+[BotLogic] Card 5 (Rev) @ (4,2) score: 52.2
+[BotLogic] Card 5 @ (2,3) score: 48.0
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.7
+[BotLogic] Card 5 @ (1,4) score: 43.1
+[BotLogic] Card 5 @ (5,4) score: 56.9
+[BotLogic] Card 5 @ (2,5) score: 46.7
+[BotLogic] Card 5 (Rev) @ (2,5) score: 46.2
+[BotLogic] Card 5 @ (3,5) score: 50.6
+[BotLogic] Card 5 (Rev) @ (6,5) score: 59.4
+[BotLogic] Card 5 @ (5,6) score: 55.7
+[BotLogic] Card 5 (Rev) @ (5,6) score: 55.2
+Decision: PLAY_CARD @ (6,5)
+
+--- Turn 7: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (ACTION: FIX_PICKAXE_LANTERN) score: 40.0 target: bot-2
+[BotLogic] Card 1 (Rev) @ (4,2) score: 52.9
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.0
+[BotLogic] Card 1 (Rev) @ (1,4) score: 43.8
+[BotLogic] Card 1 (Rev) @ (5,4) score: 56.2
+[BotLogic] Card 1 @ (2,5) score: 46.3
+[BotLogic] Card 1 @ (5,6) score: 56.7
+[BotLogic] Card 1 @ (6,6) score: 59.9
+[BotLogic] Card 4 @ (4,2) score: 52.8
+[BotLogic] Card 4 (Rev) @ (4,2) score: 52.9
+[BotLogic] Card 4 @ (2,3) score: 47.4
+[BotLogic] Card 4 (Rev) @ (2,3) score: 46.3
+[BotLogic] Card 4 @ (5,4) score: 56.2
+[BotLogic] Card 4 (Rev) @ (5,4) score: 55.4
+[BotLogic] Card 4 @ (2,5) score: 47.3
+[BotLogic] Card 4 (Rev) @ (2,5) score: 47.1
+[BotLogic] Card 4 @ (5,6) score: 55.3
+[BotLogic] Card 4 (Rev) @ (5,6) score: 56.1
+[BotLogic] Card 4 @ (6,6) score: 59.4
+[BotLogic] Card 4 (Rev) @ (6,6) score: 58.4
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-2
+Decision: PLAY_CARD @ (6,6)
+
+--- Turn 8: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (1,4) score: 43.7
+[BotLogic] Card 0 (Rev) @ (1,4) score: 44.1
+[BotLogic] Card 2 (Rev) @ (4,2) score: 52.6
+[BotLogic] Card 2 (Rev) @ (2,3) score: 47.4
+[BotLogic] Card 2 @ (1,4) score: 44.6
+[BotLogic] Card 2 @ (2,5) score: 47.7
+[BotLogic] Card 2 @ (3,5) score: 49.2
+[BotLogic] Card 2 @ (5,6) score: 57.0
+[BotLogic] Card 5 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (5,6)
+
+--- Turn 9: Bot 0 (GOLD_DIGGER) ---
+[BotLogic] Card 1 @ (4,2) score: 52.2
+[BotLogic] Card 1 (Rev) @ (4,2) score: 53.7
+[BotLogic] Card 1 @ (2,3) score: 46.2
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.7
+[BotLogic] Card 1 @ (1,4) score: 43.1
+[BotLogic] Card 1 (Rev) @ (1,4) score: 43.4
+[BotLogic] Card 1 @ (2,5) score: 46.7
+[BotLogic] Card 1 (Rev) @ (2,5) score: 47.1
+[BotLogic] Card 1 @ (3,5) score: 51.0
+[BotLogic] Card 1 (Rev) @ (3,5) score: 50.8
+[BotLogic] Card 2 (ACTION: MAP) score: 15.0 target: bot-0
+[BotLogic] Card 3 (Rev) @ (4,2) score: 54.0
+[BotLogic] Card 3 (Rev) @ (2,3) score: 46.3
+[BotLogic] Card 3 (Rev) @ (1,4) score: 43.1
+[BotLogic] Card 3 (Rev) @ (5,4) score: 56.7
+[BotLogic] Card 3 @ (2,5) score: 46.1
+[BotLogic] Card 4 @ (4,2) score: 53.0
+[BotLogic] Card 4 (Rev) @ (4,2) score: 52.5
+[BotLogic] Card 4 @ (2,3) score: 46.3
+[BotLogic] Card 4 (Rev) @ (2,3) score: 47.3
+[BotLogic] Card 4 @ (5,4) score: 56.4
+[BotLogic] Card 4 (Rev) @ (5,4) score: 55.4
+[BotLogic] Card 4 @ (2,5) score: 47.2
+[BotLogic] Card 4 (Rev) @ (2,5) score: 46.2
+Decision: PLAY_CARD @ (5,4)
+
+--- Turn 10: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 3 @ (1,4) score: 44.2
+[BotLogic] Card 3 (Rev) @ (1,4) score: 44.8
+[BotLogic] Card 3 @ (6,4) score: 59.8
+[BotLogic] Card 3 (Rev) @ (6,4) score: 59.1
+[BotLogic] Card 4 @ (4,2) score: 52.7
+[BotLogic] Card 4 (Rev) @ (4,2) score: 52.1
+[BotLogic] Card 4 @ (2,3) score: 46.8
+[BotLogic] Card 4 (Rev) @ (2,3) score: 46.3
+[BotLogic] Card 4 @ (1,4) score: 44.7
+[BotLogic] Card 4 @ (2,5) score: 47.4
+[BotLogic] Card 4 (Rev) @ (2,5) score: 47.2
+[BotLogic] Card 4 @ (3,5) score: 49.1
+[BotLogic] Card 5 (Rev) @ (4,2) score: 53.3
+[BotLogic] Card 5 (Rev) @ (2,3) score: 47.8
+[BotLogic] Card 5 @ (1,4) score: 43.3
+[BotLogic] Card 5 @ (2,5) score: 46.1
+[BotLogic] Card 5 @ (3,5) score: 49.4
+Decision: PLAY_CARD @ (6,4)
+
+--- Turn 11: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (ACTION: FIX_PICKAXE_LANTERN) score: 40.0 target: bot-2
+[BotLogic] Card 3 @ (4,2) score: 53.2
+[BotLogic] Card 3 (Rev) @ (4,2) score: 52.1
+[BotLogic] Card 3 @ (2,3) score: 46.7
+[BotLogic] Card 3 (Rev) @ (2,3) score: 46.8
+[BotLogic] Card 3 @ (2,5) score: 46.2
+[BotLogic] Card 3 (Rev) @ (2,5) score: 47.9
+[BotLogic] Card 4 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 5 @ (4,2) score: 53.5
+[BotLogic] Card 5 @ (2,3) score: 47.6
+[BotLogic] Card 5 @ (1,4) score: 43.2
+[BotLogic] Card 5 (Rev) @ (1,4) score: 44.6
+[BotLogic] Card 5 @ (7,4) score: 62.6
+[BotLogic] Card 5 (Rev) @ (7,4) score: 62.4
+[BotLogic] Card 5 (Rev) @ (2,5) score: 47.8
+[BotLogic] Card 5 (Rev) @ (3,5) score: 50.1
+Decision: PLAY_CARD @ (7,4)
+
+--- Turn 12: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (1,4) score: 44.8
+[BotLogic] Card 0 (Rev) @ (1,4) score: 43.9
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 5 (Rev) @ (4,2) score: 53.2
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.7
+[BotLogic] Card 5 (Rev) @ (1,4) score: 44.5
+[BotLogic] Card 5 @ (8,4) score: 65.7
+[BotLogic] Card 5 @ (2,5) score: 47.4
+Decision: PLAY_CARD @ (8,4)
+
+--- Turn 13: Bot 0 (GOLD_DIGGER) ---
+[BotLogic] Card 1 @ (4,2) score: 53.2
+[BotLogic] Card 1 (Rev) @ (4,2) score: 52.5
+[BotLogic] Card 1 @ (2,3) score: 46.6
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.9
+[BotLogic] Card 1 @ (8,3) score: 64.6
+[BotLogic] Card 1 (Rev) @ (8,3) score: 65.3
+[BotLogic] Card 1 @ (1,4) score: 44.3
+[BotLogic] Card 1 (Rev) @ (1,4) score: 44.6
+[BotLogic] Card 1 @ (2,5) score: 47.3
+[BotLogic] Card 1 (Rev) @ (2,5) score: 46.6
+[BotLogic] Card 1 @ (3,5) score: 49.3
+[BotLogic] Card 1 (Rev) @ (3,5) score: 50.8
+[BotLogic] Card 2 (ACTION: MAP) score: 15.0 target: bot-0
+[BotLogic] Card 3 @ (4,2) score: 52.6
+[BotLogic] Card 3 (Rev) @ (4,2) score: 52.5
+[BotLogic] Card 3 @ (2,3) score: 47.6
+[BotLogic] Card 3 (Rev) @ (2,3) score: 46.7
+[BotLogic] Card 3 @ (8,3) score: 64.4
+[BotLogic] Card 3 (Rev) @ (8,3) score: 65.6
+[BotLogic] Card 3 @ (2,5) score: 46.2
+[BotLogic] Card 3 (Rev) @ (2,5) score: 47.0
+[BotLogic] Card 3 @ (7,5) score: 61.9
+[BotLogic] Card 3 (Rev) @ (7,5) score: 63.0
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-0
+Decision: PLAY_CARD @ (8,3)
+
+--- Turn 14: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 3 @ (4,2) score: 52.7
+[BotLogic] Card 3 (Rev) @ (4,2) score: 52.0
+[BotLogic] Card 3 (Rev) @ (8,2) score: 64.6
+[BotLogic] Card 3 @ (2,3) score: 48.0
+[BotLogic] Card 3 (Rev) @ (2,3) score: 47.6
+[BotLogic] Card 3 @ (1,4) score: 43.7
+[BotLogic] Card 3 @ (2,5) score: 47.8
+[BotLogic] Card 3 (Rev) @ (2,5) score: 46.5
+[BotLogic] Card 3 @ (3,5) score: 50.8
+[BotLogic] Card 3 @ (7,5) score: 61.8
+[BotLogic] Card 4 (Rev) @ (4,2) score: 52.5
+[BotLogic] Card 4 (Rev) @ (8,2) score: 64.5
+[BotLogic] Card 4 (Rev) @ (2,3) score: 47.1
+[BotLogic] Card 4 @ (1,4) score: 44.3
+[BotLogic] Card 4 @ (2,5) score: 47.0
+[BotLogic] Card 4 @ (3,5) score: 49.8
+[BotLogic] Card 4 @ (7,5) score: 61.3
+Decision: PLAY_CARD @ (8,2)
+
+--- Turn 15: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (ACTION: FIX_PICKAXE_LANTERN) score: 40.0 target: bot-2
+[BotLogic] Card 3 @ (8,1) score: 65.3
+[BotLogic] Card 3 (Rev) @ (8,1) score: 65.5
+[BotLogic] Card 3 @ (4,2) score: 53.9
+[BotLogic] Card 3 (Rev) @ (4,2) score: 53.4
+[BotLogic] Card 3 @ (2,3) score: 46.5
+[BotLogic] Card 3 (Rev) @ (2,3) score: 48.0
+[BotLogic] Card 3 @ (2,5) score: 47.4
+[BotLogic] Card 3 (Rev) @ (2,5) score: 46.5
+[BotLogic] Card 3 @ (7,5) score: 61.2
+[BotLogic] Card 3 (Rev) @ (7,5) score: 61.9
+[BotLogic] Card 4 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-2
+Decision: PLAY_CARD @ (8,1)
+
+--- Turn 16: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 0 @ (7,2) score: 62.3
+[BotLogic] Card 0 (Rev) @ (7,2) score: 62.6
+[BotLogic] Card 0 @ (1,4) score: 43.8
+[BotLogic] Card 0 (Rev) @ (1,4) score: 43.5
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 5 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (7,2)
+
+--- Turn 17: Bot 0 (GOLD_DIGGER) ---
+[BotLogic] Card 1 @ (8,0) score: 65.6
+[BotLogic] Card 1 (Rev) @ (8,0) score: 65.4
+[BotLogic] Card 1 @ (4,2) score: 53.2
+[BotLogic] Card 1 (Rev) @ (4,2) score: 53.2
+[BotLogic] Card 1 @ (6,2) score: 58.9
+[BotLogic] Card 1 (Rev) @ (6,2) score: 59.3
+[BotLogic] Card 1 @ (2,3) score: 46.3
+[BotLogic] Card 1 (Rev) @ (2,3) score: 47.8
+[BotLogic] Card 1 @ (1,4) score: 43.5
+[BotLogic] Card 1 (Rev) @ (1,4) score: 44.7
+[BotLogic] Card 1 @ (2,5) score: 46.2
+[BotLogic] Card 1 (Rev) @ (2,5) score: 46.6
+[BotLogic] Card 1 @ (3,5) score: 50.9
+[BotLogic] Card 1 (Rev) @ (3,5) score: 49.9
+[BotLogic] Card 2 (ACTION: MAP) score: 15.0 target: bot-0
+[BotLogic] Card 4 (ACTION: MAP) score: 15.0 target: bot-0
+[BotLogic] Card 5 (ACTION: MAP) score: 15.0 target: bot-0
+Decision: PLAY_CARD @ (8,0)
+
+--- Turn 18: Bot 1 (GOLD_DIGGER) ---
+[BotLogic] Card 3 @ (7,0) score: 62.5
+[BotLogic] Card 3 (Rev) @ (4,2) score: 53.7
+[BotLogic] Card 3 @ (6,2) score: 59.0
+[BotLogic] Card 3 (Rev) @ (2,3) score: 48.0
+[BotLogic] Card 3 @ (1,4) score: 43.3
+[BotLogic] Card 3 @ (2,5) score: 47.5
+[BotLogic] Card 3 @ (3,5) score: 50.3
+[BotLogic] Card 3 @ (7,5) score: 62.1
+Decision: PLAY_CARD @ (7,0)
+
+--- Turn 19: Bot 2 (GOLD_DIGGER) ---
+[BotLogic] Card 0 (ACTION: FIX_PICKAXE_LANTERN) score: 40.0 target: bot-2
+[BotLogic] Card 3 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 4 (ACTION: MAP) score: 15.0 target: bot-2
+[BotLogic] Card 5 @ (4,2) score: 52.1
+[BotLogic] Card 5 (Rev) @ (4,2) score: 53.4
+[BotLogic] Card 5 @ (2,3) score: 47.1
+[BotLogic] Card 5 (Rev) @ (2,3) score: 46.7
+[BotLogic] Card 5 @ (2,5) score: 47.7
+[BotLogic] Card 5 (Rev) @ (2,5) score: 47.7
+[BotLogic] Card 5 @ (7,5) score: 61.8
+[BotLogic] Card 5 (Rev) @ (7,5) score: 62.8
+Decision: PLAY_CARD @ (7,5)
+
+--- Turn 20: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 21: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 22: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 23: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 24: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 25: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 26: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 27: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 28: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 29: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 30: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 31: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 32: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 33: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 34: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 35: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 36: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 37: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 38: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 39: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 40: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 41: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 42: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 43: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 44: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 45: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 46: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 47: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 48: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 49: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 50: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 51: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 52: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 53: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 54: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 55: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 56: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 57: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 58: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 59: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 60: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 61: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 62: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 63: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 64: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 65: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 66: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 67: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 68: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 69: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 70: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 71: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 72: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 73: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 74: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 75: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 76: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 77: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 78: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 79: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 80: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 81: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 82: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 83: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 84: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 85: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 86: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 87: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 88: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 89: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 90: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 91: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 92: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 93: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 94: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 95: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 96: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 97: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 98: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 99: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Turn 100: Bot 3 (GOLD_DIGGER) ---
+[BotLogic] Card 3 (ACTION: FIX_PICKAXE_CART) score: 40.0 target: bot-3
+[BotLogic] Card 4 (ACTION: FIX_PICKAXE) score: 40.0 target: bot-3
+Decision: PLAY_CARD @ (undefined,undefined)
+
+--- Game Over ---
+Status: PLAYING
+Turns: 100
+Result: Timeout or Stalled

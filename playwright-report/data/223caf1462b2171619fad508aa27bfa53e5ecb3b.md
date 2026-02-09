@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - img
+  - generic [ref=e4]:
+    - generic [ref=e5]: 📢
+    - status [ref=e6]: ルーム KMY22V が作成されました
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - heading "お邪魔もの Online" [level=1] [ref=e9]
+      - generic [ref=e10]: ● Online
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - button "?" [ref=e13] [cursor=pointer]
+        - heading "待機ルーム" [level=2] [ref=e14]
+        - generic [ref=e15]:
+          - paragraph [ref=e16]: ルームID
+          - generic [ref=e17]: KMY22V
+          - paragraph [ref=e18]: 友達にこのIDを教えてください
+        - generic [ref=e19]:
+          - heading "参加プレイヤー (1人)" [level=3] [ref=e20]
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - generic [ref=e23]: 🐶
+              - generic [ref=e24]: AutoTester (あなた)
+              - generic [ref=e25]: HOST
+        - generic [ref=e26]:
+          - button "🤖 BOT追加" [ref=e27] [cursor=pointer]:
+            - generic [ref=e28]: 🤖
+            - text: BOT追加
+          - button "ゲーム開始！" [ref=e29] [cursor=pointer]
+        - generic [ref=e30]:
+          - heading "ゲーム設定" [level=3] [ref=e31]:
+            - generic [ref=e32]: ゲーム設定
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: ラウンド数
+              - generic [ref=e36]:
+                - button "1回" [ref=e37] [cursor=pointer]
+                - button "3回" [ref=e38] [cursor=pointer]
+            - generic [ref=e39]:
+              - generic [ref=e40]: スコア計算
+              - button [ref=e41] [cursor=pointer]
+```

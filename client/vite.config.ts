@@ -1,0 +1,13 @@
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+    plugins: [react()],
+    server: {
+        port: 3000,
+        strictPort: true, // ポート3000が使用中の場合はエラーにする（3001にフォールバックしてサーバーと競合するのを防ぐ）
+        proxy: {
+        }
+    }
+})
